@@ -1,0 +1,317 @@
+#+STARTUP: latexpreview
+
+* 3° de ESO (14 años)
+
+Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.pdf][Matemáticas de 3º de ESO]] de Apuntes marea Verde.
+
+** Números racionales
+
+*** Recordatorio
+
++ 8 Regla de los signos para la suma:
+  + La suma de 2 números positivos es positiva.
+  + La suma de 2 números negativos es negativa.
+  + La suma de un número positivo con otro negativo tendrá el signo del
+    mayor en valor absoluto.
+
++ 9 Regla de los signos para la multiplicación (y la división):
+  + Positivo x Positivo = Positivo
+  + Positivo x Negativo = Negativo x Positivo = Negativo
+  + Negativo x Negativo = Positivo.
+
++ 9
+  #+begin_teorema
+  $0 \times x = 0$ para todo $x$.
+  #+end_teorema
+
+  #+begin_demostracion
+    \begin{align*}
+    x \times 0 &= x \times (a - a)   \\
+          &= x \times a - x \times a \\
+          &= 0             \\
+    \end{align*}
+  #+end_demostracion
+
++ 10
+  #+begin_teorema
+  $(-1) \times (-1) = 1$
+  #+end_teorema
+
+  #+begin_demostracion
+  \begin{align*}
+   (-1) \times (-1) + (-1) &= (-1) \times (-1) + (-1) \times 1  \\
+                      &= (-1) \times (-1 + 1) \\
+                      &= (-1) \times 0 \\
+                      &= 0 
+    \end{align*}
+   Por tanto, $(-1) \times (-1) = 1$.
+  #+end_demostracion
+    
+** Números racionales
+
++ 13 Si $a$ y $b$ son positivos y $a < b$, entonces $\frac{1}{a} > \frac{1}{b}$.
+
++ 27 El número de cifras del periodo de $\frac{1}{n}$ es menor o igual que $n - 1$.
+
++ 27 En general $\frac{1}{2^n \times 5^m}$ tiene expresión decimal exacta y el número
+  de cifras decimales es el máximo entre $n$ y $m$.
+
++ 27 Si en el denominador de una fracción irreducible aparecen factores
+  primos distintos de 2 y de 5 la expresión decimal será periódica.
+
++ 28 Para obtener la fracción generatriz se pone en el numerador el
+  número sin la coma y en el denominador la unidad seguida de tantos
+  ceros como cifras decimales tiene. Se simplifica la fracción.
+
++ 29 Para obtener la fracción generatriz de una expresión decimal
+  multiplicamos el número por la potencia de 10 necesaria para llevarnos
+  la coma al final del primer periodo, luego lo multiplicamos otra vez
+  para que la coma quede al principio del primer periodo.
+
++ 34 $\frac{1}{2} + \frac{1}{4} + \frac{1}{16} + \frac{1}{32} + \cdots = 1$.
+
+** Potencias y raíces  
+
++ 59 $(a \times b \times c \times d)^n = a^n \times b^n \times c^n \times d^n$.
+
++ 59 $\dfrac{c^m}{c^n} = c^{m-n}$
+
++ 59 $(d^{m})^n = d^{mn}$
+
++ 59 $\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}$
+
++ 59 $a^{-n} = \dfrac{1}{a^n}$
+
+** Sucesiones
+
+*** Progresiones aritméticas
+
++ 71 El término general de una progresión aritmética es
+  $$a_{n} = a_{1} + (n - 1)d$$
+
++ 71 El término general de una progresión aritmética es
+  $$a_{n} = a_{k} + (n - k)d$$
+
++ 73
+  #+begin_teorema
+  En una progresión aritmética, la suma de dos términos equidistantes
+  es constante.  Es decir, si los subíndices naturales $p$, $q$, $r$ y $s$
+  verifican que $p + q = r + s$, entonces: $a_{p} + a_{q} = a_{r} + a_{s}$.
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+   a_{p} + a_{q}  &= a_{1} + (p - 1)d + a_{1} + (q - 1)d \\
+            &= 2a_{1} + (p + q - 2)d \\
+            &= 2a_{1} + (r + s - 2)d \\
+            &= a_{1} + (r - 1)d + a_{1} + (s - 1)d \\
+            &= a_{r} + a_{s}
+    \end{align*}
+  #+end_demostracion
+  
++ 73
+  #+begin_teorema
+  La suma de los $n$ primeros términos de una progresión aritmética es
+  $\dfrac{a_1 + a_n}{2}$
+  #+end_teorema
+  #+begin_demostracion
+  Sea $S$ la suma de los $n$ primeros términos. Entonces,
+  \begin{align*}
+     S &= a_1 + a_2   + \dots + a_{n-1} + a_n \\
+     S &= a_n + a_{n-1} + \dots + a_2   + a_1
+  \end{align*}
+
+  Sumando,
+  \begin{align*}
+    2S &= (a_1 + a_n) + (a_2 + a_{n-1}) + \dots + (a_{n-1} + a_2) + (a_n + a_1) \\
+       &= (a_1 + a_n) + (a_1 + a_n) + \dots + (a_1 + a_n) + (a_1 + a_n) \\
+       &= (a_1 + a_n)n
+  \end{align*}
+
+  Por tanto,
+  $$S = \frac{a_1+a_n}{2}$$
+  #+end_demostracion
+              
+*** Progresiones geométricas
+
++ 76 El término general de una progresión geométrica es
+  $a_n = a_1 r^{n-1}$
+
++ 78
+  #+begin_teorema
+  En una progresión geométrica, el producto de dos términos
+  equidistantes es constante. Es decir, si los subíndices naturales $p$,
+  $q$, $t$ y $s$ verifican que $p + q = t + s$, entonces: $a_p a_q = a_t a_s$.
+  #+end_teorema
+  #+begin_demostracion
+   \begin{align*}
+    a_p a_q &= a_1 r^{p-1} a_1 r^{q-1} \\
+            &= a_1 a_1 r^{p+q-2} \\
+            &= a_1 a_1 r^{t+s-2} \\
+            &= a_1 r^{t-1} a_1 r^{s-1} \\
+            &= a_t a_s
+   \end{align*}
+  #+end_demostracion
+
++ 78
+  #+begin_teorema
+  El cuadrado del producto de los n primeros términos de una
+  progresión geométrica viene dado por $(a_1 a_n)^n$. \\
+  #+end_teorema
+  #+begin_demostracion
+  Sea $P$ el producto de los $n$ primeros términos de una progresión
+  geométrica. Entonces,
+  \begin{align*}
+     P^2 &= (a_1 a_2 \dots a_{n-1} a_n) (a_n a_{n-1} \dots a_2 a_1) = \\
+        &= (a_1 a_n) (a_2 a_{n-1}) \dots (a_{n-1} a_2) (a_n a_1) \\
+        &= (a_1 a_n) (a_1  a_n) \dots (a_1 a_n) (a_1 a_n)  \\
+        &= (a_1 a_n)^n
+  \end{align*}
+  #+end_demostracion
+
++ 79
+  #+begin_teorema
+  La suma de los $n$ primeros términos de una progresión geométrica no
+  constante $\dfrac{a_1(r^n - 1)}{r-1}$. \\
+  #+end_teorema
+  #+begin_demostracion
+  Se tiene
+  \begin{align*}
+     S      &= a_1 + a_2 + \dots + a_{n-1} + a_n \\
+  \end{align*}
+  Multiplicando por $r$
+  \begin{align*}
+     rS     &= r(a_1 + a_2 + \dots + a_{n-1} + a_n) \\
+            &= r a_1 + r a_2 + \dots + r a_{n-1} + r a_n \\
+            &= a_2   + a_3   + \dots + a_n + r a_n \\
+  \end{align*}
+  Restando
+  \begin{align*}
+     rS - S &= r.a_n - a_1 \\
+            &= r a_1 r^{n-1} - a_1 \\
+            &= a_1(r^n -1) 
+  \end{align*}
+  Luego,
+     $$S = \frac{a_1(r^n - 1)}{r-1}$$. 
+  #+end_demostracion
+
++ 81 La suma de un número ilimitado de términos de una progresión
+  geométrica sólo toma un valor finito si $|r| < 1$, y entonces viene dada
+  por $\frac{a_1}{1-r}$. En el resto de los casos, o vale infinito, o no existe pues
+  oscila.
+
+** Expresiones algebraicas. Polinomios  
+
+*** Polinomios. Suma y producto
+
++ 100 Propiedades de la suma de polinomios: conmutativa, asociativa,
+  neutro y opuestos.
+
++ 104 Propiedades del producto de polinomios: conmutativa, asociativa,
+  neutro y distributiva.
+
+*** División de polinomios
+
++ 107 Dados dos polinomios $p(x)$ y $q(x)$, la división de $p(x)$,
+  polinomio dividendo, entre $q(x)$, polinomio divisor, nos
+  proporcionará otros dos polinomios, el polinomio cociente $c(x)$ y el
+  polinomio resto $r(x)$.  Además, su grado deberá ser menor que el
+  grado del polinomio divisor. La relación entre los cuatro es
+  $p(x) = q(x)c(x) + r (x)$.
+
+*** Igualdades notables
+
++ 111 Potencias de un binomio:
+  + $(a + b)^{2} = a^{2} + 2ab + b^{2}$
+  + $(a - b)^{2} = a^{2} - 2ab + b^{2}$
+  + $(a + b)^{3} = a^{3} + 3a^{2}b + 3ab^{2} + b^{3}$
+  + $(a - b)^{3} = a^{3} - 3a^{2}b + 3ab^{2} - b^{3}$
+
++ 112 Suma por diferencia: $(a + b)(a - b) = a^{2} - b^{2}$.
+
+** Ecuaciones y sistemas
+
+*** Ecuaciones de segundo grado
+
++ 132
+  #+begin_teorema
+  La suma de la raíces de la ecuación $x^{2} + bx + c = 0$  es $-b$ y su
+  producto es $c$.   
+  #+end_teorema
+  #+begin_demostracion
+  Sean $x_1$ y $x_2$ la raíces de $x^{2} + bx + c = 0$. Entonces,
+  \begin{align*}
+     x^{2} + bx + c &= (x - x_1)(x - x_2) \\
+                 &= x^{2} - (x_1 + x_2)x + x_1 x_2
+  \end{align*}
+  Por tanto, $x_1 + x_2 = -b$ y $x_1 x_2 = c$.
+  #+end_demostracion 
+
++ 132
+  #+begin_teorema
+  La soluciones de $ax^{2} + bx + c = 0$, con $a \ne 0$, son
+  $$\frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$ 
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+     & ax^{2} + bx + c = 0 \\
+   & ax^{2} + bx = -c \\
+   & 4a(ax^{2} + bx) = -4ac  \\
+   & 4a(ax^{2} + bx) + b^{2} = -4ac + b^{2}  \\
+   & 4a^{2}x^{2} + 4abx + b^{2} = -4ac + b^{2}  \\
+   & (2ax + b)^{2} = -4ac + b^{2}  \\
+   & 2ax + b = \pm \sqrt{b^{2}-4ac} \\
+   & x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}
+  \end{align*}
+  #+end_demostracion
+
+** Geometría en el plano
+
+*** Lugares geométricos
+
++ 174 La circunferencia es el lugar geométrico de los puntos del plano
+  cuya distancia a un punto del mismo (el centro) es un valor
+  determinado (el radio).
+
++ 174 La mediatriz de un segmento es el lugar geométrico de los puntos
+  del plano que equidistan de los extremos del mismo.
+
++ 174 La mediatriz es una recta perpendicular al segmento y pasa por el
+  punto medio del mismo.
+
++ 174 Dado un ángulo delimitado por dos rectas, la bisectriz del ángulo
+  es el lugar geométrico de los puntos del plano que equidistan de las
+  mismas.
+
++ 174 La bisectriz pasa por el vértice del ángulo y divide a éste en dos
+  ángulos iguales.
+
+*** Ángulos, longitudes y áreas
+
++ 183 Teorema de Pitágoras: En un triángulo rectángulo, la hipotenusa al
+  cuadrado es igual a la suma de los cuadrados de los catetos.
+
++ 185 La suma de los ángulos interiores de un triángulo es $180^{\circ}$
+  
++ 185 La suma de los ángulos interiores de un polígono de $n$ lados es
+  $(n - 2) 180^{\circ}$
+   
++ 187 Un ángulo inscrito mide la mitad que un ángulo central que abarca
+  el mismo arco de circunferencia. \\
+  Demostración gráfica.
+
++ 188 En cualquier triángulo rectángulo el circuncentro está en el punto
+  medio de la hipotenusa.
+
++ 188 Un ángulo inscrito en la circunferencia que abarca un diámetro es
+  un ángulo recto.
+
+** Revisión de Geometría en el espacio
+
++ 252 Teorema de Euler: en todo poliedro convexo el número de caras más
+  el número de vértices coincide con el número de aristas más 2.
+
++ 256 Teorema de Pitágoras en el espacio: La diagonal de un ortoedro al
+  cuadrado coincide con la suma de los cuadrados de sus aristas.
+
++ 260 El área lateral de una pirámide regular es la mitad del producto
+  del perímetro de la base por la apotema.

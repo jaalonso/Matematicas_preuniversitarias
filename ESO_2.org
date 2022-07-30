@@ -1,0 +1,170 @@
+* 2° de ESO (13 años)
+
+Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/2ESO/2ESO.pdf][Matemáticasde 2º de ESO]] de Apuntes marea Verde.
+
+** Números
+
+*** Operaciones
+
++ 35: Propiedades de la suma de fracciones: conmutativa, asociativa,
+  neutro y opuestos.
+
++ 35: Propiedades del producto de fracciones: conmutativa, asociativa,
+  neutro, opuestos de no nulos y distributiva respecto de sumas
+
+** Potencias y raíces  
+
+*** Potencias
+
++ 53 Una potencia de cualquier base distinta de cero elevada a cero es
+  igual a 1.
+
++ 53 Uno, elevado a cualquier exponente, es igual a 1.
+
++ 53 Cero, elevado a cualquier exponente distinto de cero, es igual a 0.
+
++ 54 La unidad seguida de ceros es igual a una potencia de 10.
+
+** Operaciones con potencias y propiedades
+
++ 54 Para calcular el producto de dos o más potencias de la misma base,
+  se deja la misma base y se suman los exponentes.
+
++ 54 El cociente de potencias de igual base es igual a otra potencia de
+  la misma base y de exponente, la diferencia de los exponentes.
+
++ 54 Para elevar una potencia a otra potencia, se deja la misma base y
+  se multiplican los exponentes.
+
++ 55 La potencia de un producto es igual al producto de cada uno de los
+  factores elevados al mismo exponente.
+
++ 55 La potencia de un cociente es igual al cociente de cada uno de los
+  factores elevados al mismo exponente.
+
++ 55 Las potencias de base negativa y exponente par son números
+  positivos.
+
++ 55 Las potencias de base negativa y exponente impar son números
+  negativos.
+
+*** Raíces
+
++ 59 Para introducir un número dentro del radical se eleva el número al
+  índice de la raíz y se multiplica por el radicando.
+
+** Divisibilidad
+
+*** Divisibilidad
+
++ 71 Todo número tiene siempre como divisor a 1 y a sí mismo.
+
++ 72 Un número entero es divisible por 2 cuando su última cifra es 0 o
+  cifra par.
+
++ 72 Un número entero es divisible por 3 cuando la suma de sus cifras es
+  múltiplo de 3.
+
++ 72 Un número entero es divisible por 4 si el número formado por las
+  dos últimas cifras del número considerado es múltiplo de 4.
+
++ 73 Un número entero es divisible por 5 cuando termina en 0 o en 5.
+
++ 73 Un número entero es divisible por 6 cuando lo es a la vez por 2 y
+  por 3.
+
++ 73 Un número entero es divisible por 9 cuando la suma de sus cifras es
+  9 o múltiplo de 9
+
++ 73 Un número entero es divisible por 10 cuando termina en 0.
+
++ 73 Un número entero es divisible por 11 cuando la diferencia entre la
+  suma de las cifras que ocupan lugar impar y la suma de las cifras que
+  ocupan lugar par da 0 o múltiplo de 11.
+
+*** Números primos
+
++ 79 Descomponer un número natural en factores primos es expresar dicho
+  número como un producto, donde todos sus factores son números primos.
+
++ 80 Cálculo del M.C.D.
+  + Factorizamos los números.
+  + Tomamos los factores comunes a todos los números elevados el menor exponente.
+  + El producto de los factores considerados en el paso 2 es el M.C.D
+
++ 81 Cálculo del m.c.m.
+  + Factorizamos los números
+  + Tomamos los factores comunes y no comunes elevados al mayor exponente.
+  + El producto de esos factores del paso anterior es el m.c.m.
+
+** Longitudes y áreas. Semejanza
+
+*** Teorema de Pitágoras
+
++ 116 Teorema de Pitágoras: En un triángulo rectángulo, la hipotenusa al
+  cuadrado es igual a la suma de los cuadrados de los catetos.
+
+*** Semejanza
+
++ 118 Dos triángulos son semejantes si tienen todos los ángulos iguales
+  y los lados proporcionales.
+
++ 118 Dos triángulos son semejantes sí:
+  + Primero: Tienen dos ángulos iguales.
+  + Segundo: Tienen los tres lados proporcionales.
+  + Tercero: Tienen dos lados proporcionales y el ángulo que forman es igual.
+
++ 120 Teorema de Tales: Dadas dos rectas, y varias rectas paralelas
+  entre sí, que las cortan respectivamente en los puntos $A$, $B$, $C$ y $A’$,
+  $B’$, $C’$. Entonces los segmentos son proporcionales:
+  $$\dfrac{A'B'}{AB} = \dfrac{B'C'}{BC} = \dfrac{A'C'}{AC}$$
+
++ 121 Si la razón de semejanza entre las longitudes de una figura es $k$,
+  entonces la razón entre sus áreas es $k^2$.
+  
++ 121 Si la razón de semejanza entre las longitudes de una figura es $k$,
+  entonces la razón entre sus volúmenes es $k^3$.
+
+** Cuerpos geométrico. Volúmenes
+
+*** El espacio
+
++ 145 Dos planos en el espacio son paralelos si no tienen ningún punto
+  en común, y son secantes si tienen una recta en común.
+
++ 146 Dos rectas en el espacio o son paralelas o se cortan o se cruzan.
+
++ 146 Una recta puede estar contenida en un plano o ser paralela al
+  plano o ser secante.
+
+*** Poliedros
+
++ 155 El volumen de un prisma es igual al producto del área de su base
+  por su altura.
+
++ 156 El volumen de una pirámide es un tercio del volumen del prisma que
+  tiene la misma base que la pirámide y la misma altura que ella.
+
+*** Cuerpos redondos
+
++ 160 La superficie del cilindro es $2 \pi rh + 2 \pi r^2$.
+
++ 160 Superficie del cono = Área del sector circular + Área del círculo
+  = $\pi rg + \pi r^2$.
+  
++ 161 Superficie del tronco de cono = $\pi (r+r')g + \pi r^2 + \pi r'^2$.
+
++ 161 Superficie de la esfera de radio $r$ es igual a $4 \pi r^2$.
+  
++ 162 Volumen cilindro = $\pi r^2 h$
+
++ 162 Volumen cono = $\dfrac{\pi r^2 h}{3}$
+  
++ 163 Volumen de la esfera = $\dfrac{4 \pi r^3}{3}$.
+
+** Álgebra
+
+*** Ecuaciones de 2º grado
+
++ 209 Resolución de ecuaciones de 2º grado $ax^2+bx+c=0$
+  $$x = \dfrac{-b \pm \sqrt{b^2 -4ac}}{2a}$$

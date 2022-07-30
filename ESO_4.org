@@ -1,0 +1,482 @@
+#+STARTUP: latexpreview
+
+* 4° de ESO (15 años)
+
+Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/4B/CuartoB.pdf][Matemáticas de 4º de ESO]]º de Apuntes marea Verde.
+
+** Números reales
+
+*** Números racionales e irracionales
+
++ 9
+  #+begin_teorema
+  $\sqrt{2}$ no es un número racional.
+  #+end_teorema
+  #+begin_demostracion
+  Demostración (por reducción al absurdo)
+
+  Supongamos que $\sqrt{2}$ es racional. Entonces, se puede escribir como
+  una fracción irreducible
+     $$\sqrt{2} = \frac{a}{b}$$
+  Por tanto,
+  \begin{align*}
+     & 2 = \frac{a²}{b²} \\
+     & a² = 2b²
+    \end{align*}
+  Luego $a²$ es par y por lo tanto $a$ también lo es (el cuadrado de un
+  número impar es siempre impar). Ponemos $a = 2k$ y sustituimos:
+  \begin{align*}
+     & (2k)² = 2b² \\
+     & 4k² = 2b² \\
+     & 2k² = b²
+  \end{align*}
+  Luego $b²$ es par y por tanto $b$ también lo será. En definitiva: $a$ y $b$
+  son los 2 números pares que es una contradicción con el que
+  $\frac{a}{b}$ es  irreducible.
+  #+end_demostracion
+
++ 11 $\sqrt{7}$ es irracional.
+
++ 14 En cada suma o resta el error absoluto es la suma de los errores
+  absolutos.
+
++ 14 Los errores relativos se suman al multiplicar dos números.
+
++ 32 $e$ es límite de la sucesión $\left(1 + \frac{1}{n}\right)^n$
++ 33 $e = 1 + \frac{1}{1!} + \frac{1}{2!} + \frac{1}{3!} + \dots$
+
+*** Densidad de los números reales
+
++ 16
+  #+begin_teorema
+  Los números reales son densos, es decir, entre cada dos números
+  reales hay infinitos números en medio.
+  #+end_teorema
+  #+begin_demostracion
+  Sea a y b dos números reales tales que $a < b$. Entonces, se consideran
+  \begin{align*}
+    c &= \frac{a+b}{2} \\
+    d &= \frac{a+c}{2}
+  \end{align*}
+  y se tiene
+     $$a < d < c < b$$
+  Repitiendo el proceso se obtienen infinitos números entre $a$ y $b$.
+  #+end_demostracion
+
++ 16 Los racionales son también densos.
+
+** Potencias y raíces
+
+*** Logaritmos
+
++ 48
+  #+begin_teorema
+  El logaritmo de 1 es cero (en cualquier base)
+  #+end_teorema
+  #+begin_demostracion
+  Como $a^0 = 1$, por definición de logaritmo, tenemos que $\log_{a} 1 = 0$.
+  #+end_demostracion
+
++ 48
+  #+begin_teorema
+  Si $a > 0$, entonces $\log_{a} a = 1$.
+  #+end_teorema
+  #+begin_demostracion
+  Como $a^1 = a$, por definición de logaritmo, tenemos que $\log_{a} a = 1$.
+  #+end_demostracion
+
+
++ 48 Solo tienen logaritmos los números positivos.
+
++ 48
+  #+begin_teorema
+  $\log_{a} (x y) = \log_{a} x + \log_{a} y$.
+  #+end_teorema
+  #+begin_demostracion
+  Sean $A = \log_{a} x$ y $B = \log_{a} y$. Por definición de logaritmos sabemos
+  que:
+  \begin{align*}
+     a^{A} &= x \\
+     a^{B} &= y
+  \end{align*}
+
+  Multiplicando:
+  \begin{align*}
+     x y &= a^A   a^B \\
+         &= a^{A+B}
+  \end{align*}
+  Luego,
+   \begin{align*}
+    \log_{a} (x y) &= A + B \\
+                &= \log_{a} x + \log_{a} y.
+   \end{align*}
+   #+end_demostracion
+
++ 48
+  #+begin_teorema
+  El logaritmo de un cociente es igual al logaritmo del dividendo
+  menos el logaritmo del divisor.
+  #+end_teorema
+  #+begin_demostracion
+  Sean $A = \log_{a} x$ y $B = \log_{a} y$. Por definición de logaritmos sabemos
+  que:
+  \begin{align*}
+     a^A &= x \\
+     a^B &= y
+  \end{align*}
+  Dividiendo
+  \begin{align*}
+    \frac{x}{y} &= \frac{a^A}{a^B} \\
+                &= a^{A-B}
+    \end{align*}
+  Luego,
+  \begin{align*}
+     \log_{a} (\frac{x}{y}) &= A - B \\
+                        &= \log_{a} x - \log_{a} y
+  \end{align*}
+  #+end_demostracion
+
++ 48
+  #+begin_teorema
+  El logaritmo de una potencia es igual al exponente multiplicado por
+  el logaritmo de la base de la potencia.
+  #+end_teorema
+  #+begin_demostracion
+Sea $A = \log_{a} x$. Por definición de logaritmos sabemos que:
+   $$a^A = x$$
+Por tanto,
+\begin{align*}
+   x^y &= (a^A)^y \\
+      &= a^{Ay}
+\end{align*}
+Luego,
+\begin{align*}
+   \log_{a} (x^y) &= y A \\
+             &= y \log_{a} x
+\end{align*}
+   #+end_demostracion
+
++ 48
+  #+begin_teorema
+  $\log_{a} \sqrt[n]{b} = \dfrac{\log_a}{n}$.
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+   \log_{a} \sqrt[n]{b} &= \log_{a} {b}^{\frac{1}{n}} \\
+                     &= \dfrac{\log_a}{n}
+  \end{align*}
+  #+end_demostracion
+
++ 49 Cambio de base:
+  $$\log_a x = \dfrac{\log_{b} x}{\log_{b} a}$$
+
+** Sumas y productos de polinomios.
+
++ 65 Propiedades de la suma de polinomios.
+
++ 68 Propiedades del producto de polinomios.
+
+** División de polinomios
+
++ Existencia de la división.
+
+** Raíces de un polinomio
+
++ 78
+  #+begin_teorema
+  Si un número real $\alpha$ es una raíz del polinomio $p(x)$, entonces el
+  polinomio $x - \alpha$ divide a $p(x)$.
+  #+end_teorema
+  #+begin_demostracion
+Dividiendo $p(x)$ entre $x - \alpha$ se tiene
+   $$p(x) = (x - \alpha) c(x) + r (x)$$
+Como el polinomio divisor, $x - \alpha$, es de grado 1, y el polinomio resto
+ha de ser de inferior grado, se deduce que el resto anterior es un
+número real. Luego,
+   $$p(x) = (x - \alpha) c(x) + \beta$$
+El polinomio de la izquierda, $p(x)$, es idéntico al de la derecha. Por
+esa razón, al evaluarlos en cierto número real obtendremos el mismo
+valor. Procedamos a particularizarlos para $x = \alpha$  Al ser $\alpha$ raíz de
+$p(x)$, $p(\alpha) = 0$. Esto nos lleva a
+\begin{align*}
+   0 &= p(\alpha) \\
+     &= (\alpha - \alpha) c(\alpha) + \beta \\
+     &= 0 c(\alpha) + \beta \\
+     &= 0 + \beta \\
+     &= \beta
+\end{align*}
+y, así, el resto es $0$, y $p(x) = (x - \alpha)c(x)$.
+  #+end_demostracion
+
+# + 79 Si un polinomio p(x) admite una descomposición factorial de la
+#   forma p(x) = (x - α) · c( x) para cierto polinomio c(x) y cierto
+#   número real α, entonces el número α es una raíz del polinomio
+#   p(x). \\
+#   Demostración
+#   : Basta que evaluemos p en x = α :
+#   :    p(α) = (α - α ) · c(α)
+#   :         = 0 · c (α )
+#   :         = 0
+#
+# + 79 Teorema del factor. Un número real concreto α es raíz de un
+#   polinomio p(x) si y solo si el polinomio x - α divide a p(x); es
+#   decir, si y solo si el polinomio p(x) admite una descomposición
+#   factorial de la forma p(x) = (x - α) · c(x). \\
+#   Demostración
+#   : Es consecuencia de las dos propiedades anteriores.
+#
+# + 80 Todo polinomio de grado n tiene a lo sumo n raíces reales, alguna
+#   de las cuales puede aparecer repetida entre esos no más de n números
+#   reales.
+#
+# + 81 Todo polinomio de grado impar posee, al menos, una raíz real.
+#
+# + 81 Conjetura, y luego demuestra, una ley que nos permita saber cuándo
+#   un polinomio cualquiera admite al número 0 como raíz.
+#
+# + 81 Demuestra una norma que señale cuándo un polinomio cualquiera
+#   admite al número 1 como raíz.
+#
+#
+# *** Regla de Ruffini
+#
+# + 84 Teorema del resto. El valor numérico que adopta un polinomio p(x)
+#   al particularizarlo en x = α coincide con el resto que aparece al
+#   dividir p(x) entre x - α.
+#
+# *** Cálculo de las raíces de un polinomio
+#
+# + 86 Dado un polinomio cualquiera cuyos coeficientes son todos números
+#   enteros, sus raíces enteras, si las tuviera, se encuentran
+#   necesariamente entre los divisores enteros de su término
+#   independiente. \\
+#   Demostración
+#   : Supongamos que cierto número entero α es una raíz del polinomio.
+#   :    aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ··· + a₂x² + a₁x + a₀
+#   : Tal número debe anularlo:
+#   :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α + a₀ = 0
+#   :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α = -a₀
+#   :    α(aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁) = -a₀
+#   :    aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁ = -a₀/α
+#   : En la última igualdad, el número del lado izquierdo es entero, porque
+#   : está expresado como una suma de productos de números enteros. Por
+#   : ello, el número del lado derecho, -a₀/α, también es entero. Al ser
+#   : también enteros tanto -a₀ como α, alcanzamos que α es un divisor de
+#   : a₀.
+#
+# + 87 Dado un polinomio cualquiera cuyos coeficientes son todos números
+#   enteros, sus raíces racionales, si las tuviera, necesariamente tienen
+#   por numerador algún divisor del término independiente y por
+#   denominador algún divisor del coeficiente del término de mayor grado.
+#
+# *** Productos notables de polinomios
+#
+# + 89 Potencias de un binomio:
+#   + (a + b)² = a² + 2ab+ b²
+#   + (a - b)² = a² - 2ab+ b²
+#   + (a + b)³ = a³ + 3a²b + 3ab² + b³
+#   + (a - b)³ = a³ - 3a²b + 3ab² - b³
+#
+# + 90 Suma por diferencia: (a + b) · (a - b) = a² - b²
+#
+# ** Ecuaciones y sistemas
+#
+# + Igual que en 3º
+#
+# ** Inecuaciones
+#
+# + 149 Propiedades de las desigualdades
+#   + a < b ⟹ a + c < b + c
+#   + Sea c > 0. Entonces, a < b ⟹ a · c < b · c
+#   + Sea c < 0. Entonces, a < b ⟹ a · c > b · c
+#
+# ** Semejanza
+#
+# *** Teorema de Tales
+#
+# + 189 Demostración de teorema de Tales.
+#
+# *** Teorema de la altura y del cateto
+#
+# + 189 Teorema de la altura: En un triángulo rectángulo la altura es
+#   media proporcional entre los segmentos en los que divide a la
+#   hipotenusa.
+#
+# + 189 Teorema del cateto: En un triángulo rectángulo un cateto es media
+#   proporcional entre la hipotenusa y su proyección sobre ella.
+#
+# ** Trigonometría
+#
+# *** Relaciones fundamentales
+#
+# + 213 Primera relación fundamental: sen² α + cos² α = 1.
+#   Demostración
+#   : Por el teorema de Pitágoras,
+#   :    a² = b² + c²
+#   : Dividiendo por a²
+#   :   1 = a²/a²
+#   :     = b²/a² + c²/a²
+#   :     = sen² α + cos² α
+#
+# + 213 Segunda relación fundamental: tan α = sen α / cos α
+#   Demostración
+#   : sen α / cos α = (b/a)/(c/a)
+#   :               = b/c
+#   :               = tan α
+#
+# + 214 sec² α = 1 + tan² α
+#   Demostración
+#   : sec² α = 1/cos² α
+#   :        = (sen² α + cos² α)/cos² α =
+#   :        = tan² α + 1
+#
+# + 214 cosec² α = 1 + cotan² α
+#   Demostración
+#   : cosec² α = 1/sen² α
+#   :          = (sen² α + cos² α)/sen² α =
+#   :          = 1 + cotan² α
+#
+# *** Razones trigonométricas de 30⁰, 45⁰ y 60⁰.
+#
+# + 213 Razones trigonométricas de 60⁰
+#   + sen 60⁰ = √3/2
+#   + cos 60⁰ = 1/2
+#   + tan 60⁰ = √3
+#
+# + 213 Razones trigonométricas de 30⁰
+#   + sen 30⁰ = 1/2
+#   + cos 30⁰ = √3/2
+#   + tan 30⁰ = √3/3
+#
+# + 213 Razones trigonométricas de 45⁰
+#   + sen 45⁰ = √2/2
+#   + cos 45⁰ = √2/2
+#   + tan 45⁰ = 1
+#
+# *** Teorema de los senos
+#
+# + 223 En todo triángulo se cumple que los lados son proporcionales a los
+#   senos de los ángulos opuestos.
+#   Demostración gráfica.
+#
+# *** Teorema de los cosenos
+#
+# + 224 En un triángulo ABC cualquiera se cumple que:
+#   + a² = b² + c² - 2bc cos A
+#   + b² = a² + c² - 2ac cos B
+#   + c² = a² + b² - 2ab cos C
+#
+# ** Geometría
+#
+# + 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son paralelas si
+#   \(\dfrac{a}{a'} = \dfrac{b}{b'} \neq \dfrac{c}{c'}\) .
+#
+# + 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son paralelas si \(\mathbf{v} = k\mathbf{w}\)
+#
+# + 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son perpendiculares si
+#   \(a·a' + b·b' = 0\).
+#
+# + 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son perpendiculares si \(v_{1}w_{1} + v_{2}w_{2} = 0\).
+#
+# ** Combinatoria
+#
+# *** Permutaciones
+#
+# + 423 El número de permutaciones de un conjunto de \(n\) elementos es $n!$.
+#
+# *** Variaciones
+#
+# + 429 El número de variaciones con repetición de $m$ elementos tomados
+#   de $n$ en $n$ es $m^{n}$.
+#
+# + 429 El número de variaciones sin repetición de $m$ elementos tomados
+#   de $n$ en $n$ es $m(m-1) \dots (m-n+1)$
+#
+# *** Combinaciones
+#
+# + 433 El número de variaciones sin repetición de $m$ elementos tomados
+#   de $n$ en $n$ es $\dfrac{m!}{(m-n)!n!}$
+#
+# + 434 $\dbinom{m}{0} = 1$.
+#
+#   Demostración
+#   \begin{align*}
+#    \binom{m}{0} &= \dfrac{m!}{(m-0)!0!} \\
+#                 &= \dfrac{m!}{m!1}      \\
+#                &= 1
+#   \end{align*}
+#
+# + 434 $\dbinom{m}{m} = 1$.
+#
+#   Demostración
+#   \begin{align*}
+#    \binom{m}{0} &= \dfrac{m!}{(m-m)!m!} \\
+#                 &= \dfrac{m!}{0!m!}     \\
+#                 &= \dfrac{1}{0!m!}      \\
+#                 &= 1
+#   \end{align*}
+#
+# + 434 $\dbinom{m}{1} = m$.
+#
+#   Demostración
+#   \begin{align*}
+#    \binom{m}{0} &= \dfrac{m!}{(m-1)!1!} \\
+#                 &= m
+#   \end{align*}
+#
+#
+# + 434 $\dbinom{m}{n} = \dbinom{m}{m-n}$.
+#
+#   Demostración
+#   \begin{align*}
+#    \binom{m}{n} &= \dfrac{m!}{(m-n)!n!} \\
+#                 &= \dfrac{m!}{n!(m-n)!} \\
+#                 &= \dfrac{m!}{(m-(m-n)!(m-n)!} \\
+#                 &= \binom{m}{m-n}
+#   \end{align*}
+#
+# + 435  $\dbinom{m}{n} = \dbinom{m-1}{n} + \dbinom{m-1}{n-1}$.
+#   Demostración
+#   \begin{align*}
+#    \binom{m-1}{n} + \binom{m-1}{n-1}
+#    &= \dfrac{(m-1)!}{((m-1)-n)!n!} + \dfrac{(m-1)!}{((m-1)-(n-1))!(n-1)!} \\
+#    &= \dfrac{(m-1)!}{(m-n-1)!n!} + \dfrac{(m-1)!}{(m-n)!(n-1)!} \\
+#    &= \dfrac{(m-1)!}{(m-n-1)!n(n-1)!} + \dfrac{(m-1)!}{(m-n)(m-n-1)!(n-1)!} \\
+#    &= \dfrac{(m-n)(m-1)!}{(m-n)(m-n-1)!n(n-1)!} + \dfrac{n(m-1)!}{n(m-n)(m-n-1)!(n-1)!} \\
+#    &= \dfrac{(m-n)(m-1)!}{(m-n)!n!} + \dfrac{n(m-1)!}{(m-n)!n!} \\
+#    &= \dfrac{(m-n)(m-1)! + n(m-1)!}{(m-n)!n!} \\
+#    &= \dfrac{(m-n+n)(m-1)!}{(m-n)!n!} \\
+#    &= \dfrac{m(m-1)!}{(m-n)!n!} \\
+#    &= \dfrac{m!}{(m-n)!n!} \\
+#    &= \binom{m}{n}
+#   \end{align*}
+#
+# *** Binomio de Newton
+#
+# + 440 $(a+b)^{n} = \binom{n}{0}a^{0} + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b² + \cdots + \binom{n}{n-1}a^{}b^{n-1} + \binom{n}{n}^{}b^{n}$
+#
+# + 440 $(a-b)^{n} = \binom{n}{0}a^{0} - \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b² + \cdots + (-1)^{n}\binom{n}{n}^{}b^{n}$
+#
+#
+# *** Permutaciones con repetición
+#
+# + 443 El número de permutaciones de 8 elementos de los que uno se repite
+#   3 veces y otro 2 es $\dfrac{8!}{2!3!}$.
+#
+# *** Combinaciones con repetición
+#
+# + 444 El número de combinaciones con repetición de m elementos tomados
+#   de n en n es $\binom{m+n-1}{n}$.
+#
+# ** Azar y probabilidad
+#
+# *** Probabilidad
+#
+# + 468 Probabilidad del suceso contrario: $P(S^{C}) = 1 - P(S)$.
+#
+# + 468 Si $A$ y $B$ son independientes, $P(A \cap B) = P(A) \cdot P(B)$.
+#
+# *** Probabilidad condicionada
+#
+# + 474 La probabilidad de verificación del suceso $A$ condicionada a la
+#   verificación del suceso $B$ es $P(A/B) = \dfrac{P(A \cap B)}{P(B)}$.

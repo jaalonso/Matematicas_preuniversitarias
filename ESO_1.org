@@ -1,0 +1,206 @@
+#+STARTUP: latexpreview
+
+* 1° de ESO (12 años)
+
+Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf][Matemáticasde 1º de ESO]] de Apuntes Marea Verde.
+
+** Números naturales. Divisibilidad.
+
+*** Operaciones con números naturales
+    
++ 25 Propiedad distributiva de la multiplicación respecto a la suma en los naturales.
+
++ 25 Propiedad conmutativa de la multiplicación 
+
++ 25 Propiedad distributiva de la multiplicación respecto a la resta
+
++ 26 División de números naturales
+
+*** Divisibilidad
+
++ 31 Criterio de divisibilidad por 2: Un número entero es divisible por
+  2 cuando su última cifra es 0 o cifra par.
+
++ 31 Criterio de divisibilidad por 3: Un número entero es divisible por
+  3 cuando la suma de sus cifras es múltiplo de 3
+
++ 31 Criterio de divisibilidad por 4: Un número entero es divisible por
+  4 si el número formado por las dos últimas cifras del número
+  considerado es múltiplo de 4.
+
++ 31 Criterio de divisibilidad por 5: Un número entero es divisible por
+  5 cuando termina en 0 o en 5.
+
++ 32 Criterio de divisibilidad por 6: Un número entero es divisible por
+  6 cuando lo es a la vez por 2 y por 3.
+
++ 32 Criterio de divisibilidad por 9: Un número entero es divisible por
+  9 cuando la suma de sus cifras es 9 o múltiplo de 9.
+
++ 32 Criterio de divisibilidad por 10: Un número entero es divisible por
+  10 cuando termina en 0.
+
++ 32 Criterio de divisibilidad por 11: Un número entero es divisible por
+  11 cuando la diferencia entre la suma de las cifras que ocupan lugar
+  impar y la suma de las cifras que ocupan lugar par da 0 o múltiplo de
+  11
+
+*** Números primos
+
++ 38 Descomposición de un número natural en factores primos
+
++ 40 Cálculo del M.C.D. 1. Factorizamos los números. 2. Tomamos los
+  factores comunes a todos los números elevados el menor
+  exponente. 3. El producto de los factores considerados en el paso 2 es
+  el M.C.D. 
+
++ 41 Cálculo del m.c.m. 1. Factorizamos los números 2. Tomamos los
+  factores comunes y no comunes elevados al mayor exponente. 3. El
+  producto de esos factores del paso anterior es el m.c.m.
+
++ 43 Si $n$ es un número natural tal que $2^{n}-1$ es primo, entonces
+  $2^{n-1}(2^{n}-1)$ es un número perfecto.
+
++ 43 Hay infinitos números primos.
+
+** Potencias y raíces
+
+*** Potencias
+    
++ 53 Cero, elevado a cualquier exponente distinto de cero, es igual a 0.
+
+*** Operaciones con potencias
+
++ 55 Producto de potencias de igual base: $a^{n}a^{m} = a^{n+m}$
+
++ 55 Cociente de potencias de igual base: $\dfrac{a^{n}}{a^{m}} = a^{n-m}$
+
++ 55 Elevar una potencia a otra potencia: $(a^{n})^{m} = a^{nm}$
+
++ 56 Potencia de un producto: $(ab)^{n} = a^{n}b^{n}$ 
+
++ 56 Potencia de un cociente: $\left(\dfrac{a}{b}\right)^{n} = \dfrac{a^{n}}{b^{n}}$ 
+
+*** Raíces  
+
++ 58 Introducir factores en el radical: Para introducir un número dentro
+  del radical se eleva el número al índice de la raíz y se multiplica
+  por el radicando.
+
+** Fracciones
+
+*** Suma y resta de fracciones
+   
++ 93 Propiedades de la suma de fracciones.
+
+*** Producto y cociente de fracciones
+
++ 97 Propiedades del producto de fracciones.
+
+** Figuras planas
+
+*** Circunferencia y círculo
+    
++ 184 Las mediatrices de todas las cuerdas de una circunferencia pasan
+  por el centro.
+  
++ 184 La recta tangente a una circunferencia es perpendicular al radio
+  que pasa por el punto de tangencia. 
+
+*** Triángulos  
+
++ 185 La suma de los ángulos de un triángulo es 180°
+  
++ 185 En un triángulo cualquier lado es siempre menor que la suma de los
+  otros dos y mayor que su diferencia.
+
++ 186 Las mediatrices de los tres lados del triángulo concurren en un
+  punto llamado circuncentro. Dicho punto equidista de los vértices y,
+  es el centro de la circunferencia circunscrita al triángulo.
+
++ 186 Las bisectrices de los ángulos de un triángulo concurren en un
+  punto llamado incentro. Dicho punto equidista de los lados del
+  triángulo y es el centro de la circunferencia inscrita en el
+  triángulo.
+
++ 187 Las tres alturas de un triángulo se cortan en el ortocentro.
+
++ 187 El punto de corte de las medianas se llama baricentro.
+
++ 188 Para comprobar que dos triángulos son iguales es suficiente
+  comprobar que se cumple uno de los tres criterios siguientes: 1º
+  Tienen los tres lados iguales. 2º Tienen dos lados iguales e igual el
+  ángulo comprendido entre ambos.  3º Tienen un lado igual adyacente a
+  dos ángulos también iguales.
+
+*** Cuadriláteros
+
++ 190 La suma de los ángulos de un cuadrilátero es 360°
+
++ 190 La diagonal de un paralelogramo lo divide en dos triángulos iguales. 
+
++ 190 Las diagonales de un paralelogramo se cortan en el punto medio. 
+
++ 190 Las diagonales tanto de un rombo como de un cuadrado, son perpendiculares. 
+
++ 190 Al unir los puntos medios de un cuadrilátero, se forma un paralelogramo.
+
+** Longitudes y áreas
+
+*** Perímetros y áreas de polígonos
+    
++ 201 El área de un cuadrado es el cuadrado de uno de sus lados.
+
++ 201 El área de un rectángulo es el producto de su base por su altura.
+
++ 202 Los paralelogramos tienen las siguientes propiedades:
+  + Los lados opuestos son iguales
+  + Sus diagonales se cortan en sus puntos medios
+  + Tienen un centro de simetría
+  + Los romboides no tienen eje de simetría
+
++ 202 El área de un paralelogramo es el producto de su base por su
+  altura.
+
++ 202 El área de un triángulo es la mitad del área de un
+  paralelogramo.
+
++ 204 El área de un trapecio es igual a la mitad de la suma de sus
+  bases multiplicada por su altura.
+
++ 204 El área de un rombo es el producto de sus diagonales divididas entre 2    
+
++ 205 El área de un romboide es el producto de su base y su altura.
+
++ 206 El área de un polígono regular es igual al semiperímetro por la
+  apotema.
+
+*** Perímetros y áreas de figuras circulares
+
++ 210 La longitud de la circunferencia es $2 \pi r$.
+
++ 210 La longitud de un arco de circunferencia que abarca un ángulo de A
+  grados es $\dfrac{2 \pi rA}{360}$.
+
++ 211 El área del círculo es igual al producto del número $\pi·r^2$.
+
++ 212 El área de una corona circular es igual al área del círculo mayor
+  menos el área del círculo menor.
+
++ 212 El área de un sector circular que abarca un ángulo de $n$ grados es igual a:
+  $\dfrac{\pi r^2 n}{360}$.
+
++ 213 El área de un sector de corona circular formada por las circunferencias
+  concéntricas de radios $r$ y $R$ que abarca un ángulo de $n$ grados es igual a:
+  $\dfrac{\pi (R^2 - r^2)n}{360}$.
+
+** Álgebra
+
+*** Ecuaciones de primer grado
+
++ 240 Si se suma o se resta a los dos miembros de una ecuación una misma
+  cantidad, se obtiene una ecuación equivalente.
+
++ 240 Si se multiplican o dividen los dos miembros de una ecuación por
+  una misma cantidad (distinta de cero), se obtiene una ecuación
+  equivalente.
