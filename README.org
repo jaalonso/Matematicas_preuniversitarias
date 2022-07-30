@@ -7,4 +7,5 @@ propiedades enunciadas en los libros aunque no tengan demostración.
 El objetivo de esta recopilación es estudiar cómo se pueden formalizar
 dichas demostraciones con sistemas de razonamiento como [[https://www.cl.cam.ac.uk/research/hvg/Isabelle/index.html][Isabelle]] o [[https://leanprover-community.github.io/][Lean]].
 
-El libro con la recopilación es
+El libro en el que se irán recopilando es
+[[https://raw.githubusercontent.com/jaalonso/Matematicas_preuniversitarias/main/Matematicas_preuniversitarias.pdf][Demostraciones en textos de matemáticas preuniversitarias]].
