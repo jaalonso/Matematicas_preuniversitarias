@@ -275,3 +275,4 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 /ltximg/
+libro/Matematicas_preuniversitarias.tex
