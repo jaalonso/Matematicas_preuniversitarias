@@ -6,9 +6,3 @@ propiedades enunciadas en los libros aunque no tengan demostración.
 
 El objetivo de esta recopilación es estudiar cómo se pueden formalizar
 dichas demostraciones con sistemas de razonamiento como [[https://www.cl.cam.ac.uk/research/hvg/Isabelle/index.html][Isabelle]] o [[https://leanprover-community.github.io/][Lean]].
-
-Los teoremas están en los siguientes ficheros:
-+ [[./ESO_1.org][1º de ESO]].
-+ [[./ESO_2.org][2º de ESO]].
-+ [[./ESO_3.org][3º de ESO]].
-+ [[./ESO_4.org][4º de ESO]].
