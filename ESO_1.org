@@ -7,10 +7,10 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 ** Números naturales. Divisibilidad.
 
 *** Operaciones con números naturales
-    
+
 + 25 Propiedad distributiva de la multiplicación respecto a la suma en los naturales.
 
-+ 25 Propiedad conmutativa de la multiplicación 
++ 25 Propiedad conmutativa de la multiplicación
 
 + 25 Propiedad distributiva de la multiplicación respecto a la resta
 
@@ -52,7 +52,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 + 40 Cálculo del M.C.D. 1. Factorizamos los números. 2. Tomamos los
   factores comunes a todos los números elevados el menor
   exponente. 3. El producto de los factores considerados en el paso 2 es
-  el M.C.D. 
+  el M.C.D.
 
 + 41 Cálculo del m.c.m. 1. Factorizamos los números 2. Tomamos los
   factores comunes y no comunes elevados al mayor exponente. 3. El
@@ -66,7 +66,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 ** Potencias y raíces
 
 *** Potencias
-    
+
 + 53 Cero, elevado a cualquier exponente distinto de cero, es igual a 0.
 
 *** Operaciones con potencias
@@ -77,11 +77,11 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 
 + 55 Elevar una potencia a otra potencia: $(a^{n})^{m} = a^{nm}$
 
-+ 56 Potencia de un producto: $(ab)^{n} = a^{n}b^{n}$ 
++ 56 Potencia de un producto: $(ab)^{n} = a^{n}b^{n}$
 
-+ 56 Potencia de un cociente: $\left(\dfrac{a}{b}\right)^{n} = \dfrac{a^{n}}{b^{n}}$ 
++ 56 Potencia de un cociente: $\left(\dfrac{a}{b}\right)^{n} = \dfrac{a^{n}}{b^{n}}$
 
-*** Raíces  
+*** Raíces
 
 + 58 Introducir factores en el radical: Para introducir un número dentro
   del radical se eleva el número al índice de la raíz y se multiplica
@@ -90,7 +90,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 ** Fracciones
 
 *** Suma y resta de fracciones
-   
+
 + 93 Propiedades de la suma de fracciones.
 
 *** Producto y cociente de fracciones
@@ -100,17 +100,17 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 ** Figuras planas
 
 *** Circunferencia y círculo
-    
+
 + 184 Las mediatrices de todas las cuerdas de una circunferencia pasan
   por el centro.
-  
-+ 184 La recta tangente a una circunferencia es perpendicular al radio
-  que pasa por el punto de tangencia. 
 
-*** Triángulos  
++ 184 La recta tangente a una circunferencia es perpendicular al radio
+  que pasa por el punto de tangencia.
+
+*** Triángulos
 
 + 185 La suma de los ángulos de un triángulo es 180°
-  
+
 + 185 En un triángulo cualquier lado es siempre menor que la suma de los
   otros dos y mayor que su diferencia.
 
@@ -137,18 +137,18 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 
 + 190 La suma de los ángulos de un cuadrilátero es 360°
 
-+ 190 La diagonal de un paralelogramo lo divide en dos triángulos iguales. 
++ 190 La diagonal de un paralelogramo lo divide en dos triángulos iguales.
 
-+ 190 Las diagonales de un paralelogramo se cortan en el punto medio. 
++ 190 Las diagonales de un paralelogramo se cortan en el punto medio.
 
-+ 190 Las diagonales tanto de un rombo como de un cuadrado, son perpendiculares. 
++ 190 Las diagonales tanto de un rombo como de un cuadrado, son perpendiculares.
 
 + 190 Al unir los puntos medios de un cuadrilátero, se forma un paralelogramo.
 
 ** Longitudes y áreas
 
 *** Perímetros y áreas de polígonos
-    
+
 + 201 El área de un cuadrado es el cuadrado de uno de sus lados.
 
 + 201 El área de un rectángulo es el producto de su base por su altura.
@@ -168,7 +168,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/1ESO/1ESO.pdf]
 + 204 El área de un trapecio es igual a la mitad de la suma de sus
   bases multiplicada por su altura.
 
-+ 204 El área de un rombo es el producto de sus diagonales divididas entre 2    
++ 204 El área de un rombo es el producto de sus diagonales divididas entre 2
 
 + 205 El área de un romboide es el producto de su base y su altura.
 

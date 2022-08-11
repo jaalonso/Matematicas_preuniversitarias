@@ -12,7 +12,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/2ESO/2ESO.pdf]
 + 35: Propiedades del producto de fracciones: conmutativa, asociativa,
   neutro, opuestos de no nulos y distributiva respecto de sumas
 
-** Potencias y raíces  
+** Potencias y raíces
 
 *** Potencias
 
@@ -121,7 +121,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/2ESO/2ESO.pdf]
 
 + 121 Si la razón de semejanza entre las longitudes de una figura es $k$,
   entonces la razón entre sus áreas es $k^2$.
-  
+
 + 121 Si la razón de semejanza entre las longitudes de una figura es $k$,
   entonces la razón entre sus volúmenes es $k^3$.
 
@@ -151,15 +151,15 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/2ESO/2ESO.pdf]
 
 + 160 Superficie del cono = Área del sector circular + Área del círculo
   = $\pi rg + \pi r^2$.
-  
+
 + 161 Superficie del tronco de cono = $\pi (r+r')g + \pi r^2 + \pi r'^2$.
 
 + 161 Superficie de la esfera de radio $r$ es igual a $4 \pi r^2$.
-  
+
 + 162 Volumen cilindro = $\pi r^2 h$
 
 + 162 Volumen cono = $\dfrac{\pi r^2 h}{3}$
-  
+
 + 163 Volumen de la esfera = $\dfrac{4 \pi r^3}{3}$.
 
 ** Álgebra

@@ -42,11 +42,11 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
    (-1) \times (-1) + (-1) &= (-1) \times (-1) + (-1) \times 1  \\
                       &= (-1) \times (-1 + 1) \\
                       &= (-1) \times 0 \\
-                      &= 0 
+                      &= 0
     \end{align*}
    Por tanto, $(-1) \times (-1) = 1$.
   #+end_demostracion
-    
+
 ** Números racionales
 
 + 13 Si $a$ y $b$ son positivos y $a < b$, entonces $\frac{1}{a} > \frac{1}{b}$.
@@ -70,7 +70,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
 
 + 34 $\frac{1}{2} + \frac{1}{4} + \frac{1}{16} + \frac{1}{32} + \cdots = 1$.
 
-** Potencias y raíces  
+** Potencias y raíces
 
 + 59 $(a \times b \times c \times d)^n = a^n \times b^n \times c^n \times d^n$.
 
@@ -107,7 +107,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
             &= a_{r} + a_{s}
     \end{align*}
   #+end_demostracion
-  
+
 + 73
   #+begin_teorema
   La suma de los $n$ primeros términos de una progresión aritmética es
@@ -130,7 +130,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
   Por tanto,
   $$S = \frac{a_1+a_n}{2}$$
   #+end_demostracion
-              
+
 *** Progresiones geométricas
 
 + 76 El término general de una progresión geométrica es
@@ -188,10 +188,10 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
   \begin{align*}
      rS - S &= r.a_n - a_1 \\
             &= r a_1 r^{n-1} - a_1 \\
-            &= a_1(r^n -1) 
+            &= a_1(r^n -1)
   \end{align*}
   Luego,
-     $$S = \frac{a_1(r^n - 1)}{r-1}$$. 
+     $$S = \frac{a_1(r^n - 1)}{r-1}$$.
   #+end_demostracion
 
 + 81 La suma de un número ilimitado de términos de una progresión
@@ -199,7 +199,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
   por $\frac{a_1}{1-r}$. En el resto de los casos, o vale infinito, o no existe pues
   oscila.
 
-** Expresiones algebraicas. Polinomios  
+** Expresiones algebraicas. Polinomios
 
 *** Polinomios. Suma y producto
 
@@ -235,7 +235,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
 + 132
   #+begin_teorema
   La suma de la raíces de la ecuación $x^{2} + bx + c = 0$  es $-b$ y su
-  producto es $c$.   
+  producto es $c$.
   #+end_teorema
   #+begin_demostracion
   Sean $x_1$ y $x_2$ la raíces de $x^{2} + bx + c = 0$. Entonces,
@@ -244,12 +244,12 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
                  &= x^{2} - (x_1 + x_2)x + x_1 x_2
   \end{align*}
   Por tanto, $x_1 + x_2 = -b$ y $x_1 x_2 = c$.
-  #+end_demostracion 
+  #+end_demostracion
 
 + 132
   #+begin_teorema
   La soluciones de $ax^{2} + bx + c = 0$, con $a \ne 0$, son
-  $$\frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$ 
+  $$\frac{-b \pm \sqrt{b^{2}-4ac}}{2a}$$
   #+end_teorema
   #+begin_demostracion
   \begin{align*}
@@ -291,10 +291,10 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/3ESO/Tercero.p
   cuadrado es igual a la suma de los cuadrados de los catetos.
 
 + 185 La suma de los ángulos interiores de un triángulo es $180^{\circ}$
-  
+
 + 185 La suma de los ángulos interiores de un polígono de $n$ lados es
   $(n - 2) 180^{\circ}$
-   
+
 + 187 Un ángulo inscrito mide la mitad que un ángulo central que abarca
   el mismo arco de circunferencia. \\
   Demostración gráfica.

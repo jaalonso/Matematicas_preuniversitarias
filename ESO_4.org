@@ -224,52 +224,52 @@ Basta evaluar $p$ en $x = \alpha$:
 \end{align*}
   #+end_demostracion
 
-# + 79 Teorema del factor. Un número real concreto α es raíz de un
-#   polinomio p(x) si y solo si el polinomio x - α divide a p(x); es
-#   decir, si y solo si el polinomio p(x) admite una descomposición
-#   factorial de la forma p(x) = (x - α) · c(x). \\
-#   Demostración
-#   : Es consecuencia de las dos propiedades anteriores.
-#
-# + 80 Todo polinomio de grado n tiene a lo sumo n raíces reales, alguna
-#   de las cuales puede aparecer repetida entre esos no más de n números
-#   reales.
-#
-# + 81 Todo polinomio de grado impar posee, al menos, una raíz real.
-#
-# + 81 Conjetura, y luego demuestra, una ley que nos permita saber cuándo
-#   un polinomio cualquiera admite al número 0 como raíz.
-#
-# + 81 Demuestra una norma que señale cuándo un polinomio cualquiera
-#   admite al número 1 como raíz.
-#
-#
-# *** Regla de Ruffini
-#
-# + 84 Teorema del resto. El valor numérico que adopta un polinomio p(x)
-#   al particularizarlo en x = α coincide con el resto que aparece al
-#   dividir p(x) entre x - α.
-#
-# *** Cálculo de las raíces de un polinomio
-#
-# + 86 Dado un polinomio cualquiera cuyos coeficientes son todos números
-#   enteros, sus raíces enteras, si las tuviera, se encuentran
-#   necesariamente entre los divisores enteros de su término
-#   independiente. \\
-#   Demostración
-#   : Supongamos que cierto número entero α es una raíz del polinomio.
-#   :    aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ··· + a₂x² + a₁x + a₀
-#   : Tal número debe anularlo:
-#   :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α + a₀ = 0
-#   :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α = -a₀
-#   :    α(aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁) = -a₀
-#   :    aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁ = -a₀/α
-#   : En la última igualdad, el número del lado izquierdo es entero, porque
-#   : está expresado como una suma de productos de números enteros. Por
-#   : ello, el número del lado derecho, -a₀/α, también es entero. Al ser
-#   : también enteros tanto -a₀ como α, alcanzamos que α es un divisor de
-#   : a₀.
-#
++ 79 ([[https://proofwiki.org/wiki/Condition_for_Linear_Divisor_of_Polynomial][Condition for linear divisor of polynomial]] en ProofWiki)
+  #+begin_teorema
+  Teorema del factor. Un número real $\alpha$ es raíz de un polinomio
+  $p(x)$ si y solo si el polinomio $x - \alpha$ divide a $p(x)$; es
+  decir, si y solo si el polinomio $p(x)$ admite una descomposición
+  factorial de la forma $p(x) = (x - \alpha) \times c(x)$.
+  #+end_teorema
+  #+begin_demostracion
+  Es consecuencia de las dos propiedades anteriores.
+  #+end_demostracion
+
++ 80 Todo polinomio de grado $n$ tiene a lo sumo $n$ raíces reales, alguna
+  de las cuales puede aparecer repetida entre esos no más de $n$ números
+  reales.
+
++ 81 Todo polinomio de grado impar posee, al menos, una raíz real.
+
+*** Regla de Ruffini
+
++ 84 [Teorema del resto]. El valor numérico que adopta un polinomio $p(x)$
+  en $x = \alpha$ coincide con el resto que aparece al dividir $p(x)$
+  entre $x - \alpha$. ([[https://proofwiki.org/wiki/Little_B%C3%A9zout_Theorem][Little Bézout theorem]] en ProofWiki).
+
+*** Cálculo de las raíces de un polinomio
+
++ 86
+  #+begin_teorema
+  Dado un polinomio cualquiera cuyos coeficientes son todos números
+  enteros, sus raíces enteras, si las tuviera, se encuentran
+  necesariamente entre los divisores enteros de su término
+  independiente.
+  #+end_teorema
+  Demostración
+  : Supongamos que cierto número entero α es una raíz del polinomio.
+  :    aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ··· + a₂x² + a₁x + a₀
+  : Tal número debe anularlo:
+  :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α + a₀ = 0
+  :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α = -a₀
+  :    α(aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁) = -a₀
+  :    aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁ = -a₀/α
+  : En la última igualdad, el número del lado izquierdo es entero, porque
+  : está expresado como una suma de productos de números enteros. Por
+  : ello, el número del lado derecho, -a₀/α, también es entero. Al ser
+  : también enteros tanto -a₀ como α, alcanzamos que α es un divisor de
+  : a₀.
+
 # + 87 Dado un polinomio cualquiera cuyos coeficientes son todos números
 #   enteros, sus raíces racionales, si las tuviera, necesariamente tienen
 #   por numerador algún divisor del término independiente y por
