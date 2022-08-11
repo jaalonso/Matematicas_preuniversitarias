@@ -36,4 +36,4 @@ puesto un enlace a su demostración en [[https://proofwiki.org][ProofWiki]].
 #+INCLUDE: "../ESO_2.org"
 #+INCLUDE: "../ESO_3.org"
 #+INCLUDE: "../ESO_4.org"
-# #+INCLUDE: "../Bachillerato_1.org"*
+#+INCLUDE: "../Bachillerato_1.org"

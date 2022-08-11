@@ -5,13 +5,14 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/M
 ** Números reales y complejos
 
 *** Valor absoluto
-    
-+ 10 No negatividad: $|a| \geq 0$.
-  
-+ 10 Simetría: $|a| = |-a|$.
 
-  Demostración
-  
++ 10 No negatividad: $|a| \geq 0$.
+
++ 10
+  #+begin_teorema
+  Simetría: $|a| = |-a|$.
+  #+end_teorema
+  #+begin_demostracion
   Si $a > 0$, entonces
   \begin{align*}
   |a| &= a \\
@@ -29,14 +30,15 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/M
   Si $a < 0$, entonces
   \begin{align*}
   |a| &= -a \\
-      &= |-a| 
+      &= |-a|
   \end{align*}
+  #+end_demostracion
 
 + 10 Definición positiva: Si $|a| = 0$, entonces $a = 0$.
 
-+ 10 Valor absoluto y producto: $|a · b| = |a| · |b|$.
++ 10 Valor absoluto y producto: $|a \times b| = |a| \times |b|$.
 
-+ 10 Desigualdad triangular: $|a + b| \leq |a| + |b|$.   
++ 10 Desigualdad triangular: $|a + b| \leq |a| + |b|$.
 
 *** Distancia en la recta real
 
@@ -44,7 +46,7 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/M
   verifica las siguientes propiedades:
   + $\mbox{dist}(x,y) = 0$ syss $x = y$
   + $\mbox{dist}(x,y) = \mbox{dist}(y,x)$
-  + $\mbox{dist}(x,y) \leq \mbox{dist}(x,z) + \mbox{dist}(z,y)$        
+  + $\mbox{dist}(x,y) \leq \mbox{dist}(x,z) + \mbox{dist}(z,y)$
 
 *** Números complejos
 
@@ -56,9 +58,9 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/M
   complejo:
   + $\overline{z+w} = \overline{z} + \overline{w}$
   + $\overline{z-w} = \overline{z} - \overline{w}$
-  + $\overline{z \cdot w} = \overline{z} \cdot \overline{w}$. 
+  + $\overline{z \cdot w} = \overline{z} \cdot \overline{w}$.
   + $\arg({\overline{z}}) = -\arg({z})$.
-  + $z \in \mathbb{R} \iff z = \overline{z}$. 
+  + $z \in \mathbb{R} \iff z = \overline{z}$.
   + $z \cdot \overline{z} = |z|^{2}$
   + $|\overline{z}| = |z|$.
   + $|z \cdot w| = |z| \cdot |w|$
@@ -73,17 +75,18 @@ Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/M
 
 *** Operaciones entre números complejos en forma trigonométrica
 
-+ 29 Para multiplicar números complejos expresados en forma polar o en
++ 29
+  #+begin_teorema
+  Para multiplicar números complejos expresados en forma polar o en
   trigonométrica basta multiplicar sus módulos y sumar sus argumento
-
-  Demostración
+  #+end_teorema
+  #+begin_demostracion
 \begin{align*}
 z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \beta)  \\
        &= (r \cdot r') ((\cos \alpha \cos \beta - \sen \alpha \sen \beta) + i (\sen \alpha \cos \beta - \cos \alpha \sen \beta))   \\
        &= (r \cdot r') (\cos (\alpha + \beta) + i \sen (\alpha + \beta))  \\
 \end{align*}
-  
-
+  #+end_demostracion
 
 + Para dividir números complejos, basta dividir sus módulos y restar
   sus argumentos.
@@ -96,24 +99,27 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
 
 ** Trigonometría
 
-
 *** Razones trigonométricas de la suma de ángulos
 
 + 116 $\sen(a + b) = \sen(a)\cos(b) + \cos(a)\sen(b)$
 
 + 116 $\cos(a + b) = \cos(a)\cos(b) - \sen(a)\sen(b)$
 
-+ 117 $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)$
-  Demostración
++ 117
+  #+begin_teorema
+  $\tan(a+b) = \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}$
+  #+end_teorema
+  #+begin_demostracion
   \begin{align*}
   \tan(a+b) &= \dfrac{\sen(a+b)}{\cos(a+b)} \\
             &= \dfrac{\sen(a)\cos(b)+\cos(a)\sen(b)}
                      {\cos(a)\cos(b)-\sen(a)\sen(b)} \\
             &= \dfrac{\dfrac{\sen(a)\cos(b)+\cos(a)\sen(b)}{\cos(a)\cos(b)}}
                      {\dfrac{\cos(a)\cos(b)-\sen(a)\sen(b)}{\cos(a)\cos(b)}} \\
-            &= \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)}
+            &= \dfrac{\tan(a)+\tan(b)}{1-\tan(a)\tan(b)} \\
   \end{align*}
-  
+  #+end_demostracion
+
 *** Razones trigonométricas de la resta de ángulos
 
 + 117 $\sen(-a) = -\sen(a)$
@@ -134,32 +140,41 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
 
 + 118 $\cos(2a) = \cos^{2}(a) - \sen^2(a)$
 
-+ 118 $\tan(2a) = \dfrac{2\tan(a)}{1 - \tan^{2}(a)$
++ 118 $\tan(2a) = \dfrac{2\tan(a)}{1 - \tan^{2}(a)}$
 
-+ 119 $\sen\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1-\cos(a)}{2}}$  
-
-
-+ 119 $\cos\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1+\cos(a)}{2}}$  
++ 119 $\sen\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1-\cos(a)}{2}}$
 
 
-+ 119 $\tan\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1-\cos(a)}{1+\cos(a)}}$  
++ 119 $\cos\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1+\cos(a)}{2}}$
+
+
++ 119 $\tan\left(\dfrac{a}{2}\right) = \pm\sqrt{\dfrac{1-\cos(a)}{1+\cos(a)}}$
 
 *** Transformaciones de sumas de razones trigonométricas en productos
 
 + Fórmula de Simpson de seno por coseno: \\
-  $\sen \alpha \cos \beta = \dfrac{\sen(\alpha+\beta) + \sen(\alpha-\beta)}{2}$  \\
+  #+begin_teorema
+  $\sen \alpha \cos \beta = \dfrac{\sen(\alpha+\beta) + \sen(\alpha-\beta)}{2}$
+  #+end_teorema
+  #+begin_demostracion
+  (en ProofWiki [[https://proofwiki.org/wiki/Simpson%27s_Formulas/Sine_by_Cosine][Simpson's formulas/Sine by cosine]])
 
-  Demostración (en ProofWiki [[https://proofwiki.org/wiki/Simpson%27s_Formulas/Sine_by_Cosine][Simpson's formulas/Sine by cosine]]) \\
   \begin{align*}
    &  \dfrac{\sen(\alpha+\beta) + \sen(\alpha-\beta)}{2} \\
    &= \dfrac{(\sen \alpha \cos \beta + \cos \alpha \sen \beta) + (\sen \alpha \cos \beta - \cos \alpha \sen \beta)}{2} \\
    &= \dfrac{2 \sen \alpha \cos \beta}{2} \\
    &= \sen \alpha \cos \beta
   \end{align*}
+  #+end_demostracion
 
-+ 120 $\sen(a) + \sen(b) =
++ 120
+  #+begin_teorema
+  $\sen(a) + \sen(b) =
   2\sen\left(\dfrac{a+b}{2}\right)\cos\left(\dfrac{a-b}{2}\right)$
-  Demostración (en ProofWiki [[https://proofwiki.org/wiki/Prosthaphaeresis_Formulas/Sine_plus_Sine][Prosthaphaeresis formulas/Sine plus sine]])-
+  #+end_teorema
+  #+begin_demostracion
+  (En ProofWiki [[https://proofwiki.org/wiki/Prosthaphaeresis_Formulas/Sine_plus_Sine][Prosthaphaeresis formulas/Sine plus sine]]).
+
   Sumando las ecuaciones
   \begin{align*}
     &  2 \sen\left(\dfrac{\alpha+\beta}{2}\right)
@@ -171,7 +186,13 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
     &= \sen \frac{2\alpha}{2} + \sen \frac{2\beta}{2} \\
     &= \sen \alpha + \sen \beta \\
   \end{align*}
+  #+end_demostracion
 
-+ 120 $\sen(a) - \sen(b) =
++ 120
+  #+begin_teorema
+  $\sen(a) - \sen(b) =
   2\cos\left(\dfrac{a+b}{2}\right)\sen\left(\dfrac{a-b}{2}\right)$
-  Demostración (en ProofWiki 
+  #+end_teorema
+  #+begin_demostracion
+  (en ProofWiki)
+  #+end_demostracion
