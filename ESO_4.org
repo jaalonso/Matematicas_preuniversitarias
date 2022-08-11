@@ -208,16 +208,22 @@ $p(x)$, $p(\alpha) = 0$. Esto nos lleva a
 y, así, el resto es $0$, y $p(x) = (x - \alpha)c(x)$.
   #+end_demostracion
 
-# + 79 Si un polinomio p(x) admite una descomposición factorial de la
-#   forma p(x) = (x - α) · c( x) para cierto polinomio c(x) y cierto
-#   número real α, entonces el número α es una raíz del polinomio
-#   p(x). \\
-#   Demostración
-#   : Basta que evaluemos p en x = α :
-#   :    p(α) = (α - α ) · c(α)
-#   :         = 0 · c (α )
-#   :         = 0
-#
++ 79
+  #+begin_teorema
+  Si un polinomio $p(x)$ admite una descomposición factorial de la forma
+  $p(x) = (x - \alpha) \times c(x)$ para cierto polinomio $c(x)$ y
+  cierto número real $\alpha$, entonces el número $\alpha$ es una raíz
+  del polinomio $p(x)$.
+  #+end_teorema
+  #+begin_demostracion
+Basta evaluar $p$ en $x = \alpha$:
+\begin{align*}
+   p(\alpha) &= (\alpha - \alpha) \times c(\alpha) \\
+             &= 0 \times c(\alpha) \\
+             &= 0
+\end{align*}
+  #+end_demostracion
+
 # + 79 Teorema del factor. Un número real concreto α es raíz de un
 #   polinomio p(x) si y solo si el polinomio x - α divide a p(x); es
 #   decir, si y solo si el polinomio p(x) admite una descomposición
