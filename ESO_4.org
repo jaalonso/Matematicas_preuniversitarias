@@ -272,95 +272,122 @@ ello, el número del lado derecho, $-\frac{a_{0}}{\alpha}$, también es
 entero y, por tanto, $\alpha$ es un divisor de $a_{0}$.
   #+end_demostracion
 
-# + 87 Dado un polinomio cualquiera cuyos coeficientes son todos números
-#   enteros, sus raíces racionales, si las tuviera, necesariamente tienen
-#   por numerador algún divisor del término independiente y por
-#   denominador algún divisor del coeficiente del término de mayor grado.
-#
-# *** Productos notables de polinomios
-#
-# + 89 Potencias de un binomio:
-#   + (a + b)² = a² + 2ab+ b²
-#   + (a - b)² = a² - 2ab+ b²
-#   + (a + b)³ = a³ + 3a²b + 3ab² + b³
-#   + (a - b)³ = a³ - 3a²b + 3ab² - b³
-#
-# + 90 Suma por diferencia: (a + b) · (a - b) = a² - b²
-#
-# ** Ecuaciones y sistemas
-#
-# + Igual que en 3º
-#
-# ** Inecuaciones
-#
-# + 149 Propiedades de las desigualdades
-#   + a < b ⟹ a + c < b + c
-#   + Sea c > 0. Entonces, a < b ⟹ a · c < b · c
-#   + Sea c < 0. Entonces, a < b ⟹ a · c > b · c
-#
-# ** Semejanza
-#
-# *** Teorema de Tales
-#
-# + 189 Demostración de teorema de Tales.
-#
-# *** Teorema de la altura y del cateto
-#
-# + 189 Teorema de la altura: En un triángulo rectángulo la altura es
-#   media proporcional entre los segmentos en los que divide a la
-#   hipotenusa.
-#
-# + 189 Teorema del cateto: En un triángulo rectángulo un cateto es media
-#   proporcional entre la hipotenusa y su proyección sobre ella.
-#
-# ** Trigonometría
-#
-# *** Relaciones fundamentales
-#
-# + 213 Primera relación fundamental: sen² α + cos² α = 1.
-#   Demostración
-#   : Por el teorema de Pitágoras,
-#   :    a² = b² + c²
-#   : Dividiendo por a²
-#   :   1 = a²/a²
-#   :     = b²/a² + c²/a²
-#   :     = sen² α + cos² α
-#
-# + 213 Segunda relación fundamental: tan α = sen α / cos α
-#   Demostración
-#   : sen α / cos α = (b/a)/(c/a)
-#   :               = b/c
-#   :               = tan α
-#
-# + 214 sec² α = 1 + tan² α
-#   Demostración
-#   : sec² α = 1/cos² α
-#   :        = (sen² α + cos² α)/cos² α =
-#   :        = tan² α + 1
-#
-# + 214 cosec² α = 1 + cotan² α
-#   Demostración
-#   : cosec² α = 1/sen² α
-#   :          = (sen² α + cos² α)/sen² α =
-#   :          = 1 + cotan² α
-#
-# *** Razones trigonométricas de 30⁰, 45⁰ y 60⁰.
-#
-# + 213 Razones trigonométricas de 60⁰
-#   + sen 60⁰ = √3/2
-#   + cos 60⁰ = 1/2
-#   + tan 60⁰ = √3
-#
-# + 213 Razones trigonométricas de 30⁰
-#   + sen 30⁰ = 1/2
-#   + cos 30⁰ = √3/2
-#   + tan 30⁰ = √3/3
-#
-# + 213 Razones trigonométricas de 45⁰
-#   + sen 45⁰ = √2/2
-#   + cos 45⁰ = √2/2
-#   + tan 45⁰ = 1
-#
++ 87 Dado un polinomio cualquiera cuyos coeficientes son todos números
+  enteros, sus raíces racionales, si las tuviera, necesariamente tienen
+  por numerador algún divisor del término independiente y por
+  denominador algún divisor del coeficiente del término de mayor grado.
+
+*** Productos notables de polinomios
+
++ 89 Potencias de un binomio:
+  + $(a + b)^{2} = a^{2} + 2ab+ b^{2}$
+  + $(a - b)^{2} = a^{2} - 2ab+ b^{2}$
+  + $(a + b)^{3} = a^{3} + 3a^{2}b + 3ab^{2} + b^{3}$
+  + $(a - b)^{3} = a^{3} - 3a^{2}b + 3ab^{2} - b^{3}$
+
++ 90 Suma por diferencia: $(a + b)(a - b) = a^{2} - b^{2}$.
+
+** Ecuaciones y sistemas
+
++ Igual que en 3º
+
+** Inecuaciones
+
++ 149 Propiedades de las desigualdades
+  + $a < b ⟹ a + c < b + c$
+  + Si $c > 0$, entonces, $a < b ⟹ ac < bc$
+  + Si $c < 0$, entonces, $a < b ⟹ a · c > b · c$
+
+** Semejanza
+
+*** Teorema de Tales
+
++ 189 Demostración de teorema de Tales.
+
+*** Teorema de la altura y del cateto
+
++ 189 Teorema de la altura: En un triángulo rectángulo la altura es
+  media proporcional entre los segmentos en los que divide a la
+  hipotenusa.
+
++ 189 Teorema del cateto: En un triángulo rectángulo un cateto es media
+  proporcional entre la hipotenusa y su proyección sobre ella.
+
+** Trigonometría
+
+*** Relaciones fundamentales
+
++ 213
+  #+begin_teorema
+  Primera relación fundamental: $\sen^{2}\alpha + \cos^{2} \alpha = 1$.
+  #+end_teorema
+  #+begin_demostracion
+Por el teorema de Pitágoras,
+$$a^{2} = b^{2} + c^{2}$$
+Dividiendo por $a^{2}$
+\begin{align*}
+  1 &= \frac{a^{2}}{a^{2}} \\
+    &= \frac{b^{2}}{a^{2}} + \frac{c^{2}}{a^{2}} \\
+    &= \sen^{2} \alpha + \cos^{2} \alpha
+\end{align*}
+  #+end_demostracion
+
++ 213
+  #+begin_teorema
+  Segunda relación fundamental: $\tan \alpha = \dfrac{\sen \alpha}{\cos \alpha}$
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+\dfrac{sen \alpha}{cos \alpha}
+  &= \dfrac{\frac{b}{a}}{\frac{c}{a}} \\
+  &= \dfrac{b}{c} \\
+  &= \tan \alpha
+\end{align*}
+  #+end_demostracion
+
++ 214
+  #+begin_teorema
+  $\sec^{2} \alpha = 1 + \tan^{2} \alpha$
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+\sec^{2} \alpha
+  &= \dfrac{1}{cos^{2} \alpha} \\
+  &= \dfrac{\sen^{2} \alpha + \cos^{2} \alpha}{\cos^{2} \alpha} \\
+  &= \tan^{2} \alpha + 1
+\end{align*}
+  #+end_demostracion
+
++ 214
+  #+begin_teorema
+  $\cosec^{2} \alpha = 1 + \cot^{2} \alpha$
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+\cosec^{2} \alpha
+  &= \dfrac{1}{\sen^{2} \alpha} \\
+  &= \dfrac{\sen^{2} \alpha + \cos^{2} \alpha}{\sen^{2} \alpha} \\
+  &= 1 + \cot^{2} \alpha
+\end{align*}
+  #+end_demostracion
+
+*** Razones trigonométricas de 30⁰, 45⁰ y 60⁰.
+
++ 213 Razones trigonométricas de 60^{0}
+  + $\sen 60^{0} = \dfrac{\sqrt{3}}{2}$
+  + $\cos 60^{0} = \dfrac{1}{2}$
+  + $\tan 60^{0} = \sqrt{3}$
+
++ 213 Razones trigonométricas de 30º
+  + $\sen 30^{0} = \dfrac{1}{2}$
+  + $\cos 30^{0} = \dfrac{\sqrt{3}}{2}$
+  + $\tan 30^{0} = \dfrac{\sqrt{3}}{3}$
+
++ 213 Razones trigonométricas de 45º
+  + $\sen 45^{0} = \dfrac{\sqrt{2}}{2}$
+  + $\cos 45^{0} = \dfrac{\sqrt{2}}{2}$
+  + $\tan 45^{0} = 1$
+
 # *** Teorema de los senos
 #
 # + 223 En todo triángulo se cumple que los lados son proporcionales a los
@@ -370,9 +397,9 @@ entero y, por tanto, $\alpha$ es un divisor de $a_{0}$.
 # *** Teorema de los cosenos
 #
 # + 224 En un triángulo ABC cualquiera se cumple que:
-#   + a² = b² + c² - 2bc cos A
-#   + b² = a² + c² - 2ac cos B
-#   + c² = a² + b² - 2ab cos C
+#   + a^{2} = b^{2} + c^{2} - 2bc cos A
+#   + b^{2} = a^{2} + c^{2} - 2ac cos B
+#   + c^{2} = a^{2} + b^{2} - 2ab cos C
 #
 # ** Geometría
 #
@@ -461,9 +488,9 @@ entero y, por tanto, $\alpha$ es un divisor de $a_{0}$.
 #
 # *** Binomio de Newton
 #
-# + 440 $(a+b)^{n} = \binom{n}{0}a^{0} + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b² + \cdots + \binom{n}{n-1}a^{}b^{n-1} + \binom{n}{n}^{}b^{n}$
+# + 440 $(a+b)^{n} = \binom{n}{0}a^{0} + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + \binom{n}{n-1}a^{}b^{n-1} + \binom{n}{n}^{}b^{n}$
 #
-# + 440 $(a-b)^{n} = \binom{n}{0}a^{0} - \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b² + \cdots + (-1)^{n}\binom{n}{n}^{}b^{n}$
+# + 440 $(a-b)^{n} = \binom{n}{0}a^{0} - \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + (-1)^{n}\binom{n}{n}^{}b^{n}$
 #
 #
 # *** Permutaciones con repetición
