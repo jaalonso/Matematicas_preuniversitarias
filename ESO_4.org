@@ -256,19 +256,21 @@ Basta evaluar $p$ en $x = \alpha$:
   necesariamente entre los divisores enteros de su término
   independiente.
   #+end_teorema
-  Demostración
-  : Supongamos que cierto número entero α es una raíz del polinomio.
-  :    aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ··· + a₂x² + a₁x + a₀
-  : Tal número debe anularlo:
-  :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α + a₀ = 0
-  :    aₙαⁿ + aₙ₋₁αⁿ⁻¹ + ··· + a₂α² + a₁α = -a₀
-  :    α(aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁) = -a₀
-  :    aₙαⁿ⁻¹ + aₙ₋₁αⁿ⁻² + ··· + a₂α + a₁ = -a₀/α
-  : En la última igualdad, el número del lado izquierdo es entero, porque
-  : está expresado como una suma de productos de números enteros. Por
-  : ello, el número del lado derecho, -a₀/α, también es entero. Al ser
-  : también enteros tanto -a₀ como α, alcanzamos que α es un divisor de
-  : a₀.
+  #+begin_demostracion
+Supongamos que el número entero $\alpha$ es una raíz del polinomio
+$$a_{n}x^{n} + a_{n-1}x^{n-1} + \cdots + a_{2}x^{2} + a_{1}x + a_{0}$$
+Tal número debe anularlo:
+\begin{align*}
+&a_{n}\alpha^{n} + a_{n-1}\alpha^{n-1} + \cdots + a_{2}\alpha^{2} + a_{1}\alpha + a_{0} \\
+&a_{n}\alpha^{n} + a_{n-1}\alpha^{n-1} + \cdots + a_{2}\alpha^{2} + a_{1}\alpha = -a_{0} \\
+&\alpha(a_{n}\alpha^{n-1} + a_{n-1}\alpha^{n-2} + \cdots + a_{2}\alpha + a_{1}) = -a_{0} \\
+&a_{n}\alpha^{n-1} + a_{n-1}\alpha^{n-2} + \cdots + a_{2}\alpha + a_{1} = -\frac{a_{0}}{\alpha} \\
+\end{align*}
+En la última igualdad, el número del lado izquierdo es entero, porque
+está expresado como una suma de productos de números enteros. Por
+ello, el número del lado derecho, $-\frac{a_{0}}{\alpha}$, también es
+entero y, por tanto, $\alpha$ es un divisor de $a_{0}$.
+  #+end_demostracion
 
 # + 87 Dado un polinomio cualquiera cuyos coeficientes son todos números
 #   enteros, sus raíces racionales, si las tuviera, necesariamente tienen
