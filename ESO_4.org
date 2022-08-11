@@ -388,130 +388,151 @@ Dividiendo por $a^{2}$
   + $\cos 45^{0} = \dfrac{\sqrt{2}}{2}$
   + $\tan 45^{0} = 1$
 
-# *** Teorema de los senos
-#
-# + 223 En todo triángulo se cumple que los lados son proporcionales a los
-#   senos de los ángulos opuestos.
-#   Demostración gráfica.
-#
-# *** Teorema de los cosenos
-#
-# + 224 En un triángulo ABC cualquiera se cumple que:
-#   + a^{2} = b^{2} + c^{2} - 2bc cos A
-#   + b^{2} = a^{2} + c^{2} - 2ac cos B
-#   + c^{2} = a^{2} + b^{2} - 2ab cos C
-#
-# ** Geometría
-#
-# + 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son paralelas si
-#   \(\dfrac{a}{a'} = \dfrac{b}{b'} \neq \dfrac{c}{c'}\) .
-#
-# + 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son paralelas si \(\mathbf{v} = k\mathbf{w}\)
-#
-# + 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son perpendiculares si
-#   \(a·a' + b·b' = 0\).
-#
-# + 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son perpendiculares si \(v_{1}w_{1} + v_{2}w_{2} = 0\).
-#
-# ** Combinatoria
-#
-# *** Permutaciones
-#
-# + 423 El número de permutaciones de un conjunto de \(n\) elementos es $n!$.
-#
-# *** Variaciones
-#
-# + 429 El número de variaciones con repetición de $m$ elementos tomados
-#   de $n$ en $n$ es $m^{n}$.
-#
-# + 429 El número de variaciones sin repetición de $m$ elementos tomados
-#   de $n$ en $n$ es $m(m-1) \dots (m-n+1)$
-#
-# *** Combinaciones
-#
-# + 433 El número de variaciones sin repetición de $m$ elementos tomados
-#   de $n$ en $n$ es $\dfrac{m!}{(m-n)!n!}$
-#
-# + 434 $\dbinom{m}{0} = 1$.
-#
-#   Demostración
-#   \begin{align*}
-#    \binom{m}{0} &= \dfrac{m!}{(m-0)!0!} \\
-#                 &= \dfrac{m!}{m!1}      \\
-#                &= 1
-#   \end{align*}
-#
-# + 434 $\dbinom{m}{m} = 1$.
-#
-#   Demostración
-#   \begin{align*}
-#    \binom{m}{0} &= \dfrac{m!}{(m-m)!m!} \\
-#                 &= \dfrac{m!}{0!m!}     \\
-#                 &= \dfrac{1}{0!m!}      \\
-#                 &= 1
-#   \end{align*}
-#
-# + 434 $\dbinom{m}{1} = m$.
-#
-#   Demostración
-#   \begin{align*}
-#    \binom{m}{0} &= \dfrac{m!}{(m-1)!1!} \\
-#                 &= m
-#   \end{align*}
-#
-#
-# + 434 $\dbinom{m}{n} = \dbinom{m}{m-n}$.
-#
-#   Demostración
-#   \begin{align*}
-#    \binom{m}{n} &= \dfrac{m!}{(m-n)!n!} \\
-#                 &= \dfrac{m!}{n!(m-n)!} \\
-#                 &= \dfrac{m!}{(m-(m-n)!(m-n)!} \\
-#                 &= \binom{m}{m-n}
-#   \end{align*}
-#
-# + 435  $\dbinom{m}{n} = \dbinom{m-1}{n} + \dbinom{m-1}{n-1}$.
-#   Demostración
-#   \begin{align*}
-#    \binom{m-1}{n} + \binom{m-1}{n-1}
-#    &= \dfrac{(m-1)!}{((m-1)-n)!n!} + \dfrac{(m-1)!}{((m-1)-(n-1))!(n-1)!} \\
-#    &= \dfrac{(m-1)!}{(m-n-1)!n!} + \dfrac{(m-1)!}{(m-n)!(n-1)!} \\
-#    &= \dfrac{(m-1)!}{(m-n-1)!n(n-1)!} + \dfrac{(m-1)!}{(m-n)(m-n-1)!(n-1)!} \\
-#    &= \dfrac{(m-n)(m-1)!}{(m-n)(m-n-1)!n(n-1)!} + \dfrac{n(m-1)!}{n(m-n)(m-n-1)!(n-1)!} \\
-#    &= \dfrac{(m-n)(m-1)!}{(m-n)!n!} + \dfrac{n(m-1)!}{(m-n)!n!} \\
-#    &= \dfrac{(m-n)(m-1)! + n(m-1)!}{(m-n)!n!} \\
-#    &= \dfrac{(m-n+n)(m-1)!}{(m-n)!n!} \\
-#    &= \dfrac{m(m-1)!}{(m-n)!n!} \\
-#    &= \dfrac{m!}{(m-n)!n!} \\
-#    &= \binom{m}{n}
-#   \end{align*}
-#
-# *** Binomio de Newton
-#
-# + 440 $(a+b)^{n} = \binom{n}{0}a^{0} + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + \binom{n}{n-1}a^{}b^{n-1} + \binom{n}{n}^{}b^{n}$
-#
-# + 440 $(a-b)^{n} = \binom{n}{0}a^{0} - \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + (-1)^{n}\binom{n}{n}^{}b^{n}$
-#
-#
-# *** Permutaciones con repetición
-#
-# + 443 El número de permutaciones de 8 elementos de los que uno se repite
-#   3 veces y otro 2 es $\dfrac{8!}{2!3!}$.
-#
-# *** Combinaciones con repetición
-#
-# + 444 El número de combinaciones con repetición de m elementos tomados
-#   de n en n es $\binom{m+n-1}{n}$.
-#
-# ** Azar y probabilidad
-#
-# *** Probabilidad
-#
-# + 468 Probabilidad del suceso contrario: $P(S^{C}) = 1 - P(S)$.
-#
-# + 468 Si $A$ y $B$ son independientes, $P(A \cap B) = P(A) \cdot P(B)$.
-#
-# *** Probabilidad condicionada
-#
-# + 474 La probabilidad de verificación del suceso $A$ condicionada a la
-#   verificación del suceso $B$ es $P(A/B) = \dfrac{P(A \cap B)}{P(B)}$.
+*** Teorema de los senos
+
++ 223
+  #+begin_teorema
+  En todo triángulo se cumple que los lados son proporcionales a los
+  senos de los ángulos opuestos.
+  #+end_teorema
+  #+begin_demostracion
+  Demostración gráfica.
+  #+end_demostracion
+
+*** Teorema de los cosenos
+
++ 224 En un triángulo ABC cualquiera se cumple que:
+  + $a^{2} = b^{2} + c^{2} - 2bc \cos A$
+  + $b^{2} = a^{2} + c^{2} - 2ac \cos B$
+  + $c^{2} = a^{2} + b^{2} - 2ab \cos C$
+
+** Geometría
+
++ 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son paralelas si
+  \(\dfrac{a}{a'} = \dfrac{b}{b'} \neq \dfrac{c}{c'}\).
+
++ 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son paralelas si \(\mathbf{v} = k\mathbf{w}\)
+
++ 251 Las rectas \(ax + by = c\) y \(a'x + b'y = c'\) son perpendiculares si
+  \(a·a' + b·b' = 0\).
+
++ 251 Las rectas \(\mathbf{OX} = \mathbf{OA} + t\mathbf{v}\) y \(\mathbf{OX} = \mathbf{OB} + t\mathbf{w}\) son perpendiculares si \(v_{1}w_{1} + v_{2}w_{2} = 0\).
+
+** Combinatoria
+
+*** Permutaciones
+
++ 423 El número de permutaciones de un conjunto de \(n\) elementos es $n!$.
+
+*** Variaciones
+
++ 429 El número de variaciones con repetición de $m$ elementos tomados
+  de $n$ en $n$ es $m^{n}$.
+
++ 429 El número de variaciones sin repetición de $m$ elementos tomados
+  de $n$ en $n$ es $m(m-1) \dots (m-n+1)$
+
+*** Combinaciones
+
++ 433 El número de variaciones sin repetición de $m$ elementos tomados
+  de $n$ en $n$ es $\dfrac{m!}{(m-n)!n!}$
+
++ 434
+  #+begin_teorema
+  $\dbinom{m}{0} = 1$.
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+ \binom{m}{0} &= \dfrac{m!}{(m-0)!0!} \\
+              &= \dfrac{m!}{m!1}      \\
+              &= 1
+\end{align*}
+  #+end_demostracion
+
++ 434
+  #+begin_teorema
+  $\dbinom{m}{m} = 1$.
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+ \binom{m}{0} &= \dfrac{m!}{(m-m)!m!} \\
+              &= \dfrac{m!}{0!m!}     \\
+              &= \dfrac{1}{0!m!}      \\
+              &= 1
+\end{align*}
+  #+end_demostracion
+
++ 434
+  #+begin_teorema
+  $\dbinom{m}{1} = m$.
+  #+end_teorema
+  #+begin_demostracion
+\begin{align*}
+ \binom{m}{0} &= \dfrac{m!}{(m-1)!1!} \\
+              &= m
+\end{align*}
+  #+end_demostracion
+
+
++ 434
+  #+begin_teorema
+  $\dbinom{m}{n} = \dbinom{m}{m-n}$.
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+   \binom{m}{n} &= \dfrac{m!}{(m-n)!n!} \\
+                &= \dfrac{m!}{n!(m-n)!} \\
+                &= \dfrac{m!}{(m-(m-n)!(m-n)!} \\
+                &= \binom{m}{m-n}
+  \end{align*}
+  #+end_demostracion
+
++ 435
+  #+begin_teorema
+  $\dbinom{m}{n} = \dbinom{m-1}{n} + \dbinom{m-1}{n-1}$.
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+   \binom{m-1}{n} + \binom{m-1}{n-1}
+   &= \dfrac{(m-1)!}{((m-1)-n)!n!} + \dfrac{(m-1)!}{((m-1)-(n-1))!(n-1)!} \\
+   &= \dfrac{(m-1)!}{(m-n-1)!n!} + \dfrac{(m-1)!}{(m-n)!(n-1)!} \\
+   &= \dfrac{(m-1)!}{(m-n-1)!n(n-1)!} + \dfrac{(m-1)!}{(m-n)(m-n-1)!(n-1)!} \\
+   &= \dfrac{(m-n)(m-1)!}{(m-n)(m-n-1)!n(n-1)!} + \dfrac{n(m-1)!}{n(m-n)(m-n-1)!(n-1)!} \\
+   &= \dfrac{(m-n)(m-1)!}{(m-n)!n!} + \dfrac{n(m-1)!}{(m-n)!n!} \\
+   &= \dfrac{(m-n)(m-1)! + n(m-1)!}{(m-n)!n!} \\
+   &= \dfrac{(m-n+n)(m-1)!}{(m-n)!n!} \\
+   &= \dfrac{m(m-1)!}{(m-n)!n!} \\
+   &= \dfrac{m!}{(m-n)!n!} \\
+   &= \binom{m}{n}
+  \end{align*}
+  #+end_demostracion
+
+*** Binomio de Newton
+
++ 440 $(a+b)^{n} = \binom{n}{0}a^{0} + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + \binom{n}{n-1}a^{}b^{n-1} + \binom{n}{n}^{}b^{n}$
+
++ 440 $(a-b)^{n} = \binom{n}{0}a^{0} - \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^{2} + \cdots + (-1)^{n}\binom{n}{n}^{}b^{n}$
+
+
+*** Permutaciones con repetición
+
++ 443 El número de permutaciones de 8 elementos de los que uno se repite
+  3 veces y otro 2 es $\dfrac{8!}{2!3!}$.
+
+*** Combinaciones con repetición
+
++ 444 El número de combinaciones con repetición de m elementos tomados
+  de n en n es $\binom{m+n-1}{n}$.
+
+** Azar y probabilidad
+
+*** Probabilidad
+
++ 468 Probabilidad del suceso contrario: $P(S^{C}) = 1 - P(S)$.
+
++ 468 Si $A$ y $B$ son independientes, $P(A \cap B) = P(A) \cdot P(B)$.
+
+*** Probabilidad condicionada
+
++ 474 La probabilidad de verificación del suceso $A$ condicionada a la
+  verificación del suceso $B$ es $P(A/B) = \dfrac{P(A \cap B)}{P(B)}$.
