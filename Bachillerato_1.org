@@ -1,3 +1,5 @@
+#+STARTUP: latexpreview
+
 * 1° de Bachillerato (16 años)
 
 Del libro [[http://www.apuntesmareaverde.org.es/grupos/mat/LOMLOE/Bachillerato/Matematicas_I.pdf][Matemáticas I (1º de Bachillerato)]] de Apuntes marea Verde.
@@ -175,7 +177,6 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
   #+begin_demostracion
   (En ProofWiki [[https://proofwiki.org/wiki/Prosthaphaeresis_Formulas/Sine_plus_Sine][Prosthaphaeresis formulas/Sine plus sine]]).
 
-  Sumando las ecuaciones
   \begin{align*}
     &  2 \sen\left(\dfrac{\alpha+\beta}{2}\right)
          \cos\left(\dfrac{\alpha-\beta}{2}\right) \\
@@ -194,5 +195,16 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
   2\cos\left(\dfrac{a+b}{2}\right)\sen\left(\dfrac{a-b}{2}\right)$
   #+end_teorema
   #+begin_demostracion
-  (en ProofWiki)
+  (en ProofWiki [[https://proofwiki.org/wiki/Prosthaphaeresis_Formulas/Sine_minus_Sine][Prosthaphaeresis formulas/sine minus sine]])
+
+  \begin{align*}
+    &  2 \cos\left(\dfrac{\alpha+\beta}{2}\right)
+         \sen\left(\dfrac{\alpha-\beta}{2}\right) \\
+    &= 2 \dfrac{\sen\left(\dfrac{\alpha-\beta}{2} + \dfrac{\alpha+\beta}{2}\right) +
+                \sen\left(\dfrac{\alpha-\beta}{2} - \dfrac{\alpha+\beta}{2}\right)}
+               {2}
+         & \mbox{Fórmula de Simpson} \\
+    &= \sen \frac{2\alpha}{2} - \sen \frac{2\beta}{2} \\
+    &= \sen \alpha - \sen \beta \\
+  \end{align*}
   #+end_demostracion
