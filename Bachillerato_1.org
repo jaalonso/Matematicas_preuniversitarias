@@ -208,3 +208,18 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
     &= \sen \alpha - \sen \beta \\
   \end{align*}
   #+end_demostracion
+
++ Fórmula de Simpson de coseno por coseno: \\
+  #+begin_teorema
+  $\cos \alpha \cos \beta = \dfrac{\cos(\alpha-\beta) + \cos(\alpha+\beta)}{2}$
+  #+end_teorema
+  #+begin_demostracion
+  (en ProofWiki [[https://proofwiki.org/wiki/Simpson%27s_Formulas/Cosine_by_Cosine][Simpson's Formulas/Cosine by Cosine]])
+
+  \begin{align*}
+   &  \dfrac{\cos(\alpha-\beta) + \sen(\alpha+\beta)}{2} \\
+   &= \dfrac{(\cos \alpha \cos \beta + \sen \alpha \sen \beta) + (\cos \alpha \cos \beta - \sen \alpha \sen \beta)}{2} \\
+   &= \dfrac{2 \cos \alpha \cos \beta}{2} \\
+   &= \cos \alpha \cos \beta
+  \end{align*}
+  #+end_demostracion
