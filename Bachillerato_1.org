@@ -271,3 +271,16 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
   y $c$ es opuesto de $C$. Entonces,
   $$c^2 = a^2 + b^2 - 2 a b \cos C$$
   (En ProofWiki [[https://proofwiki.org/wiki/Law_of_Cosines][Law of cosines]]).
+
++ 129
+  #+begin_teorema
+  Teorema de Pitágoras: Sea $\triangle ABC$ un triángulo rectángulo
+  $c$ como su hipotenusa. Entonces,
+  $$a^2 + b^2 = c^2$$
+  #+end_teorema
+  #+begin_demostracion
+  \begin{align*}
+  c^2 &= a^2 + b^2 - 2 a b \cos\left(\frac{\pi}{2}\right) \\
+      &= a^2 + b^2
+  \end{align*}
+  #+end_demostracion
