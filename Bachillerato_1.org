@@ -263,3 +263,11 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
     &= \cos \alpha - \cos \beta \\
   \end{align*}
   #+end_demostracion
+
+*** Resolución general de triángulos
+
++ 129 Teorema del coseno: Sea $\triangle ABC$ un triángulos cuyos lados
+  $a, b, c$ son tales que $a$ es opuesto de $A$, $b$ es opuestos de $B$
+  y $c$ es opuesto de $C$. Entonces,
+  $$c^2 = a^2 + b^2 - 2 a b \cos C$$
+  (En ProofWiki [[https://proofwiki.org/wiki/Law_of_Cosines][Law of cosines]]).
