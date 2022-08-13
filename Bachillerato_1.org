@@ -243,3 +243,23 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
     &= \cos \alpha + \cos \beta \\
   \end{align*}
   #+end_demostracion
+
+  + 120
+  #+begin_teorema
+  $\cos a  - \cos b  =
+  -2\sen\left(\dfrac{a+b}{2}\right)\sen\left(\dfrac{a-b}{2}\right)$
+  #+end_teorema
+  #+begin_demostracion
+  (en ProofWiki [[https://proofwiki.org/wiki/Prosthaphaeresis_Formulas/Cosine_minus_Cosine][Prosthaphaeresis Formulas/Cosine minus Cosine]]).
+
+  \begin{align*}
+    &  -2 \sen\left(\dfrac{\alpha+\beta}{2}\right)
+          \sen\left(\dfrac{\alpha-\beta}{2}\right) \\
+    &= -2 \dfrac{\cos\left(\dfrac{\alpha+\beta}{2} - \dfrac{\alpha-\beta}{2}\right) -
+                 \cos\left(\dfrac{\alpha+\beta}{2} + \dfrac{\alpha-\beta}{2}\right)}
+               {2}
+         & \mbox{Fórmula de Simpson} \\
+    &= -\left(\cos \frac{2\beta}{2} - \cos \frac{2\alpha}{2}\right) \\
+    &= \cos \alpha - \cos \beta \\
+  \end{align*}
+  #+end_demostracion
