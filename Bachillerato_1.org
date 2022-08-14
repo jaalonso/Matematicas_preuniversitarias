@@ -393,3 +393,21 @@ donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$
 
   Los casos de los triángulos obtusángulo y rectángulo se deja como ejercicio.
   #+end_demostracion
+
++ 132.
+  #+begin_teorema
+  Si un triángulo es obtusángulo, el ángulo obtuso es opuesto al lado más grande.
+  #+end_teorema
+  #+begin_demostracion
+  Supongamos un triángulo obtusángulo de lados $a$, $b$ y $c$ con
+  $\alpha$ el ángulo opuesto a $a$ obtuso. Debemos ver $a > b$ y $a > c$.
+
+  Por el teorema del coseno $a^2 = b^2 + c^2 - 2ab \cos(\alpha)$. Como
+  el ángulo $\alpha$ es obtuso entonces $\cos(\alpha) < 0$
+  y $2ab \cos(\alpha) < 0$. Eso significa que $c^2 - 2ab \cos(\alpha) >
+  0$
+  y, por tanto, $a^2 > b^2$. Como los dos son positivos,
+  tomando raíces se deduce $a > b$.
+
+  Del mismo modo se demuestra que $a > c$.
+  #+end_demostracion
