@@ -266,11 +266,92 @@ z_{} \cdot z' &= r_{}(\cos \alpha + i\sen \alpha) \cdot r'(\cos \beta + i \sen \
 
 *** Resolución general de triángulos
 
-+ 129 Teorema del coseno: Sea $\triangle ABC$ un triángulos cuyos lados
++ 129
+  #+begin_teorema
+  Teorema del coseno: Sea $\triangle ABC$ un triángulos cuyos lados
   $a, b, c$ son tales que $a$ es opuesto de $A$, $b$ es opuestos de $B$
   y $c$ es opuesto de $C$. Entonces,
   $$c^2 = a^2 + b^2 - 2 a b \cos C$$
+  #+end_teorema
+  #+begin_demostracion
   (En ProofWiki [[https://proofwiki.org/wiki/Law_of_Cosines][Law of cosines]]).
+
+  /Caso de triángulo rectángulo/
+
+  Sea $\triangle ABC$ un triángulo rectángulo tal que $\angle A$ recto.
+
+  file:./fig/teorema-coseno-1.png
+
+  \begin{align*}
+  a^2 &= b^2 + c^2
+      && \text{Teorema de Pitágoras} \\
+  c^2 &= a^2 - b^2
+      && \text{Despejando $c^{2}$}\\
+      &= a^2 - 2 b^2 + b^2
+      && \text{Sumando $0 = b^2 - b^2$ a la derecha} \\
+      &= a^2 - 2 a b \left({\frac b a}\right) + b^2
+      && \text{Multiplicando $2 b^2$ por $\dfrac a a$} \\
+      &= a^2 + b^2 - 2 a b \cos C
+      && \text{Por la definición de $\cos C = \dfrac b a$}
+  \end{align*}
+
+
+  /Caso del triángulo acutángulo/
+
+  Sea $\triangle ABC$ un triángulo acutángulo.
+
+  file:./fig/teorema-coseno.2.png
+
+  Sea $BD$ perpendicular a $AC$ y se definen $h = BD$, $e = CD$ y $f = AD$.
+
+  Los triángulos $\triangle CDB$ y $\triangle ADB$ son rectángulos. Por tanto, \\
+\begin{align*}
+c^2 &= h^2 + f^2
+    && \text{Teorema de Pitágoras} \\
+    &= a^2 - e^2 + f^2
+    && \text{Teorema de Pitágoras} \\
+    &= a^2 - e^2 + f^2 + 2e^2 - 2e^2 + 2ef - 2ef
+    && \text{Sumando $2e^2 - 2e^2 + 2ef - 2ef$} \\
+    &= a^2 + (e^2 + f^2 + 2ef) - 2e(e + f)
+    && \text{Agrupando} \\
+    &= a^2 + (e + f)^2 - 2e(e+f)
+    && \text{Cuadrado del binomio} \\
+    &= a^2 + b^2 - 2eb
+    && \text{Sustituyendo $b = e + f$} \\
+    &= a^2 + b^2 - 2 a b \cos C
+    && \text{Definición de $\cos C = \frac{e}{a}$} \\
+\end{align*}
+
+  /Caso del triángulo obtusángulo/
+
+  Sea $\triangle ABC$ un triángulo obtusángulo.
+
+  file:./fig/teorema-coseno-3.png
+
+  Se extiende $AC$ y sea $BD$ perpendicular a $AC$. Se define $h = BD$, $e = CD$ y $f = AD$.
+
+  Entonces $\triangle CDB$ y $\triangle ADB$ son triángulos rectángulos. Por tanto,
+
+  \begin{align*}
+c^2 &= h^2 + f^2
+    && \text{Teorema de Pitágoras} \\
+    &= a^2 - e^2 + f^2
+    && \text{Teorema de Pitágoras} \\
+    &= a^2 - (b + f)^2 + f^2
+    && \text{Por definición de $e$ y $f$} \\
+    &= a^2 - b^2 - f^2 - 2bf + f^2
+    && \text{Expandiendo el cuadrado del binomio} \\
+    &= a^2 - b^2 - 2bf
+    && \text{Cancelando $f^2 - f^2$} \\
+    &= a^2 - b^2 - 2bf + 2b^2 - 2b^2
+    && \text{Sumando y restando $2b^2$} \\
+    &= a^2 + b^2 - 2b(b + f)
+    && \text{Reagrupando} \\
+    &= a^2 + b^2 - 2be \\
+    &= a^2 + b^2 - 2 a b \cos C
+    && \text{Por definición de $\cos C = \frac{e}{a}$}
+  \end{align*}
+    #+end_demostracion
 
 + 129
   #+begin_teorema
