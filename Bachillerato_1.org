@@ -365,3 +365,31 @@ c^2 &= h^2 + f^2
       &= a^2 + b^2
   \end{align*}
   #+end_demostracion
+
++ 131.
+  #+begin_teorema
+  Teorema del seno: para cualquier triángulo $\triangle ABC$:
+
+$$\dfrac a {\sen(\alpha)} = \dfrac b {\sen(\beta)} = \dfrac c {\sen(\gamma)}$$
+
+donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$ y $\gamma$, respectivamente.
+  #+end_teorema
+  #+begin_demostracion
+  (En ProofWiki [[https://proofwiki.org/wiki/Law_of_Sines][Law of sines]]).
+
+  /Caso del triángulo acutángulo/
+
+  file:./fig/teorema-seno.png
+
+  Por definición del seno, se tiene $\sen(\alpha) = \frac{h}{b}$ y
+  $\sen(\beta) = \frac{h}{a}$.
+
+  Despejando $h$, se tiene $h = b \sen(\alpha)$ y $h = a \sen(\beta)$.
+
+  Igualando, se tiene $b \sen(\alpha) = a \sen(\beta)$.
+
+  Por tanto. $\dfrac a {\sen(\alpha)} = \dfrac b {\sen(\beta)}$
+
+
+  Los casos de los triángulos obtusángulo y rectángulo se deja como ejercicio.
+  #+end_demostracion
