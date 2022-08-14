@@ -1,4 +1,4 @@
-p#+TITLE: Demostraciones en textos de matemáticas preuniversitarias
+#+TITLE: Demostraciones en textos de matemáticas preuniversitarias
 #+STARTUP: latexpreview
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
