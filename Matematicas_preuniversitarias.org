@@ -1,0 +1,37 @@
+p#+TITLE: Demostraciones en textos de matemáticas preuniversitarias
+#+STARTUP: latexpreview
+#+LATEX_CLASS: book-noparts
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
+#+LATEX_HEADER: \usepackage[spanish]{babel}
+#+LATEX_HEADER: \usepackage{a4wide}
+#+LATEX_HEADER: \usepackage{ucs}
+#
+#+LATEX_HEADER: \usepackage{amsthm}
+#+LATEX_HEADER: \theoremstyle{teorema}
+#+LATEX_HEADER: \newtheorem{teorema}{Teorema}[section]
+#+LATEX_HEADER: \newtheorem{lema}[teorema]{Lema}
+#+LATEX_HEADER: \newtheorem{corolario}[teorema]{Corolario}
+#+LATEX_HEADER: \newtheorem{proposicion}[teorema]{Proposición}
+#+LATEX_HEADER: \newtheorem{definicion}[teorema]{Definición}
+#+LATEX_HEADER: \theoremstyle{remark}
+#+LATEX_HEADER: \newtheorem{nota}{Nota}[section]
+#+LATEX_HEADER: \newtheorem{ejemplo}[nota]{Ejemplo}
+#
+#+LATEX_HEADER: \newenvironment{demostracion}
+#+LATEX_HEADER:   {\noindent {\bf Demostración:}}
+#+LATEX_HEADER:   {\newline\mbox{ } \hfill $\square$}
+
+
+\chapter*{Introducción}
+
+Este libro es una recopilación de los teoremas que aparecen en los
+libros de textos de matemáticas antes de la Universidad. Los textos
+utilizados son los de [[http://www.apuntesmareaverde.org.es/][Apuntes Marea Verde]]. La mayoría de los teoremas
+están en los libros de textos sin demostraciones. En algunos teoremas he
+puesto un enlace a su demostración en [[https://proofwiki.org][ProofWiki]].
+
+#+INCLUDE: "./ESO_1.org"
+#+INCLUDE: "./ESO_2.org"
+#+INCLUDE: "./ESO_3.org"
+#+INCLUDE: "./ESO_4.org"
+#+INCLUDE: "./Bachillerato_1.org"
