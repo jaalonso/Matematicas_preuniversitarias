@@ -416,10 +416,32 @@ donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$
 
 *** Producto escalar de vectores
 
-+ 161 Propiedades del producto escalar:
-  + Conmutativa: $\vec{v} \cdot \vec{w} = \vec{w} \cdot \vec{v}$
-  + Distributiva respecto a la suma:
-    $\vec{u} \cdot (\vec{v} + \vec{w}) = \vec{u} \cdot \vec{v} + \vec{u} \cdot \vec{w}$
-  + Asociativa respecto a escalares: $\vec{v} \cdot (k \vec{w}) = k (\vec{v} \cdot \vec{w})$
-  + Si $\alpha$ es el ángulo que forman $\vec{v}$ y $\vec{w}$, entonces
-    $\vec{v} \cdot \vec{w} = ||\vec{v}|| \cdot ||\vec{w}|| \cos(\alpha)$
+**** Propiedades del producto escalar:
+
++ 161.
+  #+begin_teorema
+  Conmutativa: $\mathbf{u} \cdot \mathbf{v} = \mathbf{v} \cdot
+  \mathbf{u}$
+  #+end_teorema
+  #+begin_demostracion
+  (en ProofWiki [[https://proofwiki.org/wiki/Dot_Product_Operator_is_Commutative][Dot product operator is commutative]])
+
+  \begin{align*}
+    \mathbf u \cdot \mathbf v
+    &= u_1 v_1 + u_2 v_2
+       && \text{Definición del producto escalar} \\
+    &= v_1 u_1 + v_2 u_2
+       && \text{Conmutativa del producto de números reales} \\
+    &= \mathbf v \cdot \mathbf u
+       && \text{Definición del producto escalar} \\
+  \end{align*}
+  #+end_demostracion
+
+
++ Distributiva respecto a la suma:
+  $\mathbf{u} \cdot (\mathbf{v} + \mathbf{w}) = \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{w}$
+
++ Asociativa respecto a escalares: $\mathbf{v} \cdot (k \mathbf{w}) = k (\mathbf{v} \cdot \mathbf{w})$
+
++ Si $\alpha$ es el ángulo que forman $\mathbf{v}$ y $\mathbf{w}$, entonces
+  $\mathbf{v} \cdot \mathbf{w} = ||\mathbf{v}|| \cdot ||\mathbf{w}|| \cos(\alpha)$
