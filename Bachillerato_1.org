@@ -438,8 +438,28 @@ donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$
   #+end_demostracion
 
 
-+ Distributiva respecto a la suma:
-  $\mathbf{u} \cdot (\mathbf{v} + \mathbf{w}) = \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{w}$
++ 161.
+  #+begin_teorema
+  Distributiva respecto a la suma: $\mathbf{u} \cdot (\mathbf{v} +
+  \mathbf{w}) = \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot
+  \mathbf{w}$
+  #+end_teorema
+  #+begin_demostracion
+  (En ProofWiki [[https://proofwiki.org/wiki/Dot_Product_Distributes_over_Addition][Dot product distributes over addition]])
+
+  \begin{align*}
+  \mathbf{u} \cdot (\mathbf{v} + \mathbf{w})
+  &= u_1(v_1 + w_1) + u_2(v_2 + w_2)
+       && \text{Definición del producto escalar} \\
+  &= (u_1v_1 + u_1w_1) + (u_2v_2 + u_2w_2)
+       && \text{Distributiva de los reales} \\
+  &= (u_1v_1 + u_2v_2) + (u_1w_1 + u_2w_2)
+       && \text{Reagrupando} \\
+  &= \mathbf{u} \cdot \mathbf{v} + \mathbf{u} \cdot \mathbf{w}
+       && \text{Definición del producto escalar} \\
+  \end{align*}
+  #+end_demostracion
+
 
 + Asociativa respecto a escalares: $\mathbf{v} \cdot (k \mathbf{w}) = k (\mathbf{v} \cdot \mathbf{w})$
 
