@@ -461,7 +461,21 @@ donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$
   #+end_demostracion
 
 
-+ Asociativa respecto a escalares: $\mathbf{v} \cdot (k \mathbf{w}) = k (\mathbf{v} \cdot \mathbf{w})$
++ 161
+  #+begin_teorema
+  Asociativa respecto a escalares: $\mathbf{u} \cdot (k \mathbf{v}) = k (\mathbf{u} \cdot \mathbf{v})$
+  #+end_teorema
+  #+begin_demostracion
+  (En ProofWiki [[https://proofwiki.org/wiki/Dot_Product_Associates_with_Scalar_Multiplication][Dot product associates with scalar multiplication]]).
+
+  \begin{align*}
+  \mathbf{u} \cdot (k \mathbf{v})
+  &= u_1kv_1 + u_2kv_2 \\
+  &= k(u_1v_1 + u_2v_2) \\
+  &= k (\mathbf{u} \cdot \mathbf{v})
+  \end{align*}
+  #+end_demostracion
+
 
 + Si $\alpha$ es el ángulo que forman $\mathbf{v}$ y $\mathbf{w}$, entonces
   $\mathbf{v} \cdot \mathbf{w} = ||\mathbf{v}|| \cdot ||\mathbf{w}|| \cos(\alpha)$
