@@ -477,5 +477,11 @@ donde $a$, $b$, and $c$ son los lados opuestoa a los vértices $\alpha$, $\beta$
   #+end_demostracion
 
 
-+ Si $\alpha$ es el ángulo que forman $\mathbf{v}$ y $\mathbf{w}$, entonces
++ 161. Si $\alpha$ es el ángulo que forman $\mathbf{v}$ y $\mathbf{w}$, entonces
   $\mathbf{v} \cdot \mathbf{w} = ||\mathbf{v}|| \cdot ||\mathbf{w}|| \cos(\alpha)$
+
+
+*** Distancia de un punto a una recta
+
++ 180. La distancia entre el punto $(x_0, y_0)$ y la recta $Ax + By + C = 0$  es
+  $$\left|\dfrac{Ax_{0}+Bx_0+C}{\sqrt{A^2+B^2}}\right|$$
